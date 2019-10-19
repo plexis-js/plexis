@@ -1,6 +1,6 @@
 {
   "name": "plexis",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
@@ -9,10 +9,10 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@plexis/to-pred": "^0.0.9",
-    "@plexis/to-succ": "^0.0.9",
-    "@plexis/to-title": "^0.0.9",
-    "@plexis/without-diacritics": "^0.0.9"
+    "@plexis/to-pred": "^0.0.10",
+    "@plexis/to-succ": "^0.0.10",
+    "@plexis/to-title": "^0.0.10",
+    "@plexis/without-diacritics": "^0.0.10"
   },
   "keywords": [
     "utility",
