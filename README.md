@@ -1,6 +1,6 @@
 <div align="center">
 
-### Plexis: Lo-fi, powerful string manipulation library.
+### Plexis: Lo-fi, powerful, community-driven string manipulation library.
 
 </div>
 
@@ -41,7 +41,7 @@ Do you want to get your hands dirty? Learn more about [contributing](#contributi
 
 ## Installing
 
-You may install plexis by the registry using: `npm install --save plexis`. Plexis is a mosaic of tiny utility functions, each one lives within its own package inside the monorepo. Thus you may use just a tiny slice of plexis by installing individual packages:
+You may install Plexis by the registry using: `npm install --save plexis`. Plexis is a mosaic of tiny utility functions, each one lives within its own package inside the monorepo. Thus you may use just a tiny slice of Plexis by installing individual packages:
 
 ```bash
 npm install @plexis/without-diacritics @plexis/toPred
@@ -49,7 +49,7 @@ npm install @plexis/without-diacritics @plexis/toPred
 
 ## Using
 
-Plexis utilities can be directly been used, plexis is production-ready and made for Node.js as well as the web. You can directly include and use any module from plexis inside your project.
+Plexis utilities can be directly been used, Plexis is production-ready and made for Node.js as well as the web. You can directly include and use any module from Plexis inside your project.
 
 ```javascript
 import {toPred} from 'plexis';
