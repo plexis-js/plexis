@@ -205,14 +205,19 @@ In a nutshell, to submit a pull request, follow these steps:
 
 Here are some learning resources, free tutorials and books:
 
-- ### ES6
-  - https://www.tutorialspoint.com/es6/index.htm
-  - https://2ality.com/
-  - https://exploringjs.com/
-- ### Jest
-  - https://www.youtube.com/watch?v=7r4xVDI2vho
-  - https://blog.logrocket.com/testing-with-jest-from-zero-to-hero-85ce0e9cc953/
-- ### Lerna
-  - https://github.com/reggi/lerna-tutorial
-  - https://www.youtube.com/watch?v=p6qoJ4apCjA
-  - https://codeburst.io/monorepos-by-example-part-1-3a883b49047e
+#### ES6
+
+- https://www.tutorialspoint.com/es6/index.htm
+- https://2ality.com/
+- https://exploringjs.com/
+
+#### Jest
+
+- https://www.youtube.com/watch?v=7r4xVDI2vho
+- https://blog.logrocket.com/testing-with-jest-from-zero-to-hero-85ce0e9cc953/
+
+#### Lerna
+
+- https://github.com/reggi/lerna-tutorial
+- https://www.youtube.com/watch?v=p6qoJ4apCjA
+- https://codeburst.io/monorepos-by-example-part-1-3a883b49047e
