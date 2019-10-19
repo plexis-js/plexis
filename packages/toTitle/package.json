@@ -1,0 +1,25 @@
+{
+  "name": "@plexis/to-title",
+  "version": "0.0.8",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "./src/index.js",
+  "authors": [
+    "Theodore Vorillas <vorillaz@gmail.com> (https://vorillaz.com)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "utility",
+    "string",
+    "parse",
+    "format",
+    "validate"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plexis-js/plexis.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
