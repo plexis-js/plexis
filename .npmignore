@@ -11,6 +11,7 @@ coverage
 coverage.lcov
 docs
 babel.config.js
+assets
 test
 CONTRIBUTING.md
 CODE_OF_CONDUCT.md

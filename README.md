@@ -1,6 +1,8 @@
 <div align="center">
 
-### Plexis: Lo-fi, powerful, community-driven string manipulation library.
+[![Plexis](./assets/logo.svg)](https://github.com/plexis-js/plexis)
+
+### Lo-fi, powerful, community-driven string manipulation library.
 
 </div>
 
