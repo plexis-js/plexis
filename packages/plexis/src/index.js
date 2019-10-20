@@ -11,5 +11,4 @@ export {
   default as cleanDiacritics,
   default as removeDiacritics
 } from '@plexis/without-diacritics';
-export {default as isUpperCase, default as isUpper} from '@plexis/is-uppercase';
 export {default as isLowerCase, default as isLower} from '@plexis/is-lowercase';
