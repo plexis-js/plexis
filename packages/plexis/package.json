@@ -14,7 +14,8 @@
     "@plexis/to-succ": "^0.0.12",
     "@plexis/to-title": "^0.0.12",
     "@plexis/without-diacritics": "^0.0.12",
-    "@plexis/is-uppercase": "^0.0.12"
+    "@plexis/is-uppercase": "^0.0.12",
+    "@plexis/is-lowercase": "^0.0.12"
   },
   "keywords": [
     "utility",
