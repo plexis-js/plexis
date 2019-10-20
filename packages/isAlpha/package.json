@@ -1,11 +1,11 @@
 {
   "name": "@plexis/is-alpha",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
   "authors": [
-    "Rob Fairclough https://github.com/robfairclough" 
+    "Rob Fairclough https://github.com/robfairclough"
   ],
   "license": "MIT",
   "keywords": [
