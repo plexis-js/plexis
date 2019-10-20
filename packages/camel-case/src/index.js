@@ -16,7 +16,10 @@ const toCamelCase = string => {
   };
   const wordPatt = /^\w|[A-Z]|\b\w/g;
   const symbolPatt = /[^a-zA-Z0-9]/g;
-  let result = string.replace(wordPatt, lowerUpper).replace(symbolPatt, '');
+  let result = string
+    .trim()
+    .replace(wordPatt, lowerUpper)
+    .replace(symbolPatt, '');
   return result;
 };
 
