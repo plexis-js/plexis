@@ -58,10 +58,6 @@ import {toPred} from 'plexis';
 console.log(toPred('A')); // B
 ```
 
-## Contributing
-
-**We welcome any and all contributions from the community!** Plexis is made, driven and maintained by the community. We want to offer everyone a fair chance to make their first steps into open-source and learn through the journey.
-
 ## Ground rules
 
 All conversations code pieces on Plexis agree to our underlying code of conduct. This code of conduct also applies to all conversations that happen within our contributor community here on GitHub. We expect discussions in issues and pull requests to stay positive, productive, and respectful.
@@ -106,6 +102,10 @@ plexis/
 ├── docs              # Our official documentation
 └── packages          # The heartbeat of plexis
 ```
+
+## Contributing
+
+**We welcome any and all contributions from the community!** Plexis is made, driven and maintained by the community. We want to offer everyone a fair chance to make their first steps into open-source and learn through the journey.
 
 ## Great, how do I get started?
 
