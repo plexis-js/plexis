@@ -15,5 +15,7 @@ Array [
   "withoutDiacritics",
   "cleanDiacritics",
   "removeDiacritics",
+  "isUpperCase",
+  "isUpper",
 ]
 `;
