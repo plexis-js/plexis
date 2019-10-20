@@ -9,6 +9,7 @@ Array [
   "toSuccessor",
   "toTitle",
   "titleize",
+  "toLower",
   "withoutDiacritics",
   "cleanDiacritics",
   "removeDiacritics",
