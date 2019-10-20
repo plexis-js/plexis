@@ -24,8 +24,9 @@ it('compose unary and binary functions', () => {
 it('compose 3 functions', () => {
   const ops = compose(
     inc,
+    inc,
     x => add(x, 12)
   );
-  expect(ops(2)).toBe(15);
-  expect(ops(10)).toBe(23);
+  expect(ops(2)).toBe(16);
+  expect(ops(10)).toBe(24);
 });
