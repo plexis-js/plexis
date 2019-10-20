@@ -12,6 +12,6 @@ it('check a lowercase string', () => {
   expect(isUpperCase('hello')).toBe(false);
 });
 
-it('check a lowercase string with an uppercase char in the middle', () => {
+it('check a uppercase string with an lowercase char in the middle', () => {
   expect(isUpperCase('HELLO FOo BAR')).toBe(false);
 });
