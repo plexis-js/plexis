@@ -5,3 +5,4 @@
 - [toSucc](/packages/toSucc)
 - [toTitle](/packages/toTitle)
 - [withoutDiacritics](/packages/withoutDiacritics)
+- [isAlpha](/packages/isAlpha)

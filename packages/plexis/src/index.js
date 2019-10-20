@@ -11,3 +11,4 @@ export {
   default as cleanDiacritics,
   default as removeDiacritics
 } from '@plexis/without-diacritics';
+export {default as isAlpha} from '@plexis/isAlpha';
