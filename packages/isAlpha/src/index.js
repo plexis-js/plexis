@@ -9,8 +9,8 @@
  */
 
 const isAlpha = text => {
-  if (!text || typeof text !== 'string');
-  if (/[^a-z]/gi.test(txt)) return false;
+  if (!text || typeof text !== 'string') return false;
+  if (/[^a-z]/gi.test(text)) return false;
   return true;
 };
 
