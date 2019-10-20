@@ -1,5 +1,5 @@
 /**
- * @description Lowercase the first letter of given string.
+ * @description Lowercase the first letter of the given string.
  * @param {String} text
  * @param {Boolean} isLowecase
  * @example

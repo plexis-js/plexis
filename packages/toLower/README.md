@@ -1,6 +1,6 @@
 # `@plexis/toLower`
 
-Lowercase the first letter of given string.
+Lowercase the first letter of the given string.
 
 **Installation**
 `npm i @plexis/to-lower`
@@ -19,4 +19,6 @@ toLower('FOO BAR', false); // returns 'fOO BAR'
 
 ```javascript
 import {toLower} from 'plexis';
+import {toFirstLower} from 'plexis';
+import {decapitalize} from 'plexis';
 ```
