@@ -17,5 +17,7 @@ Array [
   "removeDiacritics",
   "isLowerCase",
   "isLower",
+  "compose",
+  "_do",
 ]
 `;

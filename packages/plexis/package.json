@@ -9,6 +9,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "@plexis/compose": "^0.0.12",
     "@plexis/to-lower": "^0.0.12",
     "@plexis/to-pred": "^0.0.12",
     "@plexis/to-succ": "^0.0.12",
