@@ -13,7 +13,8 @@
     "@plexis/to-pred": "^0.0.12",
     "@plexis/to-succ": "^0.0.12",
     "@plexis/to-title": "^0.0.12",
-    "@plexis/without-diacritics": "^0.0.12"
+    "@plexis/without-diacritics": "^0.0.12",
+    "@plexis/is-alpha": "^0.0.12"
   },
   "keywords": [
     "utility",
