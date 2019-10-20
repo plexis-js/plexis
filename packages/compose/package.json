@@ -1,0 +1,22 @@
+{
+  "name": "@plexis/compose",
+  "version": "0.0.11",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "./src/index.js",
+  "authors": [
+    "Nguyễn Tuấn Dũng <ntddebugger@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "utility",
+    "function"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plexis-js/plexis.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
