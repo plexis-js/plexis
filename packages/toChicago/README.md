@@ -1,8 +1,8 @@
-## `@plexis/compose`
+## `@plexis/to-chicago`
 
-A proper description
+Convert text into Chicago style
 
-`npm i @plexis/compose`
+`npm i @plexis/to-chicago`
 
 **Usage**
 
