@@ -12,3 +12,4 @@ export {
   default as removeDiacritics
 } from '@plexis/without-diacritics';
 export {default as isLowerCase, default as isLower} from '@plexis/is-lowercase';
+export {default as compose, default as _do} from '@plexis/compose';
