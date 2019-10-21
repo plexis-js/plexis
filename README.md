@@ -101,15 +101,16 @@ Also, is a list of all the technologies and services we use:
 ```sh
 plexis/
 ├── .circleci         # CI/CD config
-├── .circleci         # CI/CD config
+├── .github           # Github templates for issues & PRs
 ├── .package-template # A sample package template
+├── assets            # Assets which can be used in .md files
 ├── docs              # Our official documentation
 └── packages          # The heartbeat of plexis
 ```
 
 ## Great, how do I get started?
 
-Plexis has a [Code of Conduct][]. Please review and help enforce this code of conduct to help us foster an open and inclusive project.
+Plexis has a [Code of Conduct](./CODE-OF-CONDUCT.md). Please review and help enforce this code of conduct to help us foster an open and inclusive project.
 
 ### How to Contribute
 

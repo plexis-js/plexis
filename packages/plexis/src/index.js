@@ -12,3 +12,8 @@ export {
   default as removeDiacritics
 } from '@plexis/without-diacritics';
 export {default as isLowerCase, default as isLower} from '@plexis/is-lowercase';
+export {
+  default as toCapitals,
+  default as toFirstCapital,
+  default as capitalize
+} from '@plexis/to-capitals';

@@ -1,7 +1,7 @@
 /**
  * @description Lowercase the first letter of the given string.
  * @param {String} text
- * @param {Boolean} isLowecase
+ * @param {Boolean} isLowercase
  * @example
  * toLower('Foo Bar', false) // returns 'foo Bar'
  * toLower('Foo Bar', true) // returns 'foo bar'
