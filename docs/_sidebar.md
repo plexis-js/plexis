@@ -1,0 +1,7 @@
+- **API**
+  - [isLowerCase](./pages/isLowerCase.md)
+  - [toLower](./pages/toLower.md)
+  - [toPred](./pages/toPred.md)
+  - [toSucc](./pages/toSucc.md)
+  - [toTitle](./pages/toTitle.md)
+  - [withoutDiacritics](./pages/withoutDiacritics.md)
