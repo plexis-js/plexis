@@ -4,6 +4,7 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
+  "files": ["dist", "src"],
   "authors": [
     "Theodore Vorillas <vorillaz@gmail.com> (https://vorillaz.com)"
   ],
