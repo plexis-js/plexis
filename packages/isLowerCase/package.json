@@ -1,12 +1,9 @@
 {
-  "name": "@plexis/to-pred",
+  "name": "@plexis/is-lowercase",
   "version": "0.0.13",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
-  "authors": [
-    "Theodore Vorillas <vorillaz@gmail.com> (https://vorillaz.com)"
-  ],
   "license": "MIT",
   "keywords": [
     "utility",
