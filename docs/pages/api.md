@@ -1,6 +1,7 @@
 ## API
 
 - [compose](/packages/compose)
+- [isEmpty](/packages/isEmpty)
 - [isLowerCase](/packages/isLowerCase)
 - [isUpperCase](/packages/isUpperCase)
 - [startsWith](/packages/startsWith)
