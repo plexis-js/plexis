@@ -20,4 +20,4 @@ export {
   default as toChicagoManualStyle,
   default as toChicagoStyle,
   default as toChicagoTitle
-} from 'plexis';
+} from '@plexis/to-chicago';
