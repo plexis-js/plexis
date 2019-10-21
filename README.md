@@ -27,7 +27,7 @@ Do you want to get your hands dirty? Learn more about [contributing](#contributi
 - [API](/docs/pages/api.md)
 - [Contributing](#contributing)
 - [Ground rules](#ground-rules)
-- [What you will learn by contributing]('#what-you-will-learn-by-contributing')
+- [What you will learn by contributing](#what-you-will-learn-by-contributing)
 - [Codebase and technologies](#codebase-and-technologies)
 - [Great, how do I get started?](#great-how-do-i-get-started)
   - [How to contribute](#how-to-contribute)
