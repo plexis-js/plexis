@@ -1,5 +1,5 @@
 {
-  "name": "@plexis/camel-case",
+  "name": "@plexis/to-camel-case",
   "version": "0.0.12",
   "description": "Convert string to camel case",
   "keywords": [
