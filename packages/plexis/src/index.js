@@ -76,3 +76,8 @@ export {
   default as dedent
 } from '@plexis/without-indent';
 export {default as toPascalCase, default as classify} from '@plexis/to-pascal-case';
+export {
+  default as toKebabCase,
+  default as dasherize,
+  default as slugify
+} from '@plexis/toKebabCase';

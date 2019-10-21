@@ -1,14 +1,10 @@
 {
   "name": "@plexis/to-kebab-case",
-  "version": "0.0.14",
+  "version": "0.0.13",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
-  "files": [
-    "dist",
-    "src"
-  ],
-  "license": "MIT",
+  "description": "Converts a string to kebab case",
   "keywords": [
     "utility",
     "string",
@@ -17,15 +13,16 @@
     "dasherize",
     "slugify"
   ],
-  "description": "Converts a string to kebab case",
   "authors": [
     "Antoine Ceol <antoine.ceol@gmail.com>"
   ],
+  "homepage": "https://github.com/plexis-js/plexis#readme",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/plexis-js/plexis.git"
   },
-  "publishConfig": {
-    "access": "public"
+  "bugs": {
+    "url": "https://github.com/plexis-js/plexis/issues"
   }
 }
