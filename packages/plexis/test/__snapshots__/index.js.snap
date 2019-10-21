@@ -19,5 +19,7 @@ Array [
   "isLower",
   "isUpperCase",
   "isUpper",
+  "compose",
+  "_do",
 ]
 `;

@@ -27,7 +27,7 @@ Do you want to get your hands dirty? Learn more about [contributing](#contributi
 - [API](/docs/pages/api.md)
 - [Contributing](#contributing)
 - [Ground rules](#ground-rules)
-- [What you will learn by contributing]('#what-you-will-learn-by-contributing')
+- [What you will learn by contributing](#what-you-will-learn-by-contributing)
 - [Codebase and technologies](#codebase-and-technologies)
 - [Great, how do I get started?](#great-how-do-i-get-started)
   - [How to contribute](#how-to-contribute)
@@ -109,14 +109,14 @@ plexis/
 
 ## Great, how do I get started?
 
-Plexis has a [Code of Conduct][]. Please review and help enforce this code of conduct to help us foster an open and inclusive project.
+Plexis has a [Code of Conduct](CODE-OF-CONDUCT.md). Please review and help enforce this code of conduct to help us foster an open and inclusive project.
 
 ### How to Contribute
 
 First things first, thanks so much! Feel free to contribute by opening and commenting on issues, helping answer questions, updating or improving our documentation, or opening a pull request. For quick bug fixes or PRs that address an open issue, feel free to open a PR. You can suggest API changes or dig through your codebase and make us a gift with that precious function of yours.
 
 Even the a tiny piece of code, knowledge or even a few minutes you can spare for Plexis are really important for us.
-[code of conduct]: ./CODE-OF-CONDUCT.md
+[Code of Conduct](CODE-OF-CONDUCT.md)
 
 ### Creating a new issue
 
