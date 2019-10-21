@@ -179,6 +179,8 @@ Finally, you should create a JSDoc comment block for your package, providing a p
 
 Last but not least you shall update the main `plexis` package with exports all the submodules. Since the main `plexis` module uses snapshots for testing, you need to run `yarn test -u` in order to update the snapshot testing.
 
+:bulb: Tip: If your pull request resolves an open issue, don't forget to use [GitHub keywords](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords) in the description of your commit message, for example **closes #1**, in order to automatically close the equivalent issue upon merge.
+
 ### Pull requests
 
 In a nutshell, to submit a pull request, follow these steps:
