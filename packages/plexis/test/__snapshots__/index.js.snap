@@ -16,5 +16,7 @@ Array [
   "cleanDiacritics",
   "removeDiacritics",
   "isAlpha",
+  "isLowerCase",
+  "isLower",
 ]
 `;
