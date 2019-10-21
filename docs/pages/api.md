@@ -1,5 +1,6 @@
 ## API
 
+- [isEmpty](/packages/isEmpty)
 - [isLowerCase](/packages/isLowerCase)
 - [toLower](/packages/toLower)
 - [toPred](/packages/toPred)

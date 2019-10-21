@@ -1,22 +1,13 @@
 {
-  "name": "plexis",
+  "name": "@plexis/is-empty",
   "version": "0.0.12",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
   "authors": [
-    "Theodore Vorillas <vorillaz@gmail.com> (https://vorillaz.com)"
+    "eElec <adrishaditya@gmail.com>"
   ],
   "license": "MIT",
-  "dependencies": {
-    "@plexis/to-lower": "^0.0.12",
-    "@plexis/to-pred": "^0.0.12",
-    "@plexis/to-succ": "^0.0.12",
-    "@plexis/to-title": "^0.0.12",
-    "@plexis/without-diacritics": "^0.0.12",
-    "@plexis/is-lowercase": "^0.0.12",
-    "@plexis/is-empty": "^0.0.12"
-  },
   "keywords": [
     "utility",
     "string",
