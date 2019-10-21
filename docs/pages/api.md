@@ -2,6 +2,7 @@
 
 - [compose](/packages/compose)
 - [isLowerCase](/packages/isLowerCase)
+- [isUpperCase](/packages/isUpperCase)
 - [toLower](/packages/toLower)
 - [toPred](/packages/toPred)
 - [toSucc](/packages/toSucc)
