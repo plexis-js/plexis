@@ -1,19 +1,9 @@
 # `@plexis/is-empty`
 
-> TODO: description
+Checks whether the input text is empty.
 
-## Usage
-
-```javascript
-const isEmpty = require('@plexis/is-empty');
-```
-
-// TODO: DEMONSTRATE API
-```## `isEmpty`
-
-Checks whether the input text is empty
-
-`npm i @plexis/isEmpty`
+**Installation**
+`npm i @plexis/to-lower`
 
 **Usage**
 
