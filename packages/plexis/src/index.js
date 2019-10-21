@@ -59,3 +59,8 @@ export {
   default as isAlphaDigit
 } from '@plexis/is-alphanumeric';
 export {default as withoutHTML, default as removeHTML} from '@plexis/without-html';
+export {
+  default as toKebabCase,
+  default as dasherize,
+  default as slugify
+} from '@plexis/toKebabCase';
