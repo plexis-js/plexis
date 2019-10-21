@@ -1,5 +1,6 @@
 ## API
 
+- [compose](/packages/compose)
 - [isLowerCase](/packages/isLowerCase)
 - [toLower](/packages/toLower)
 - [toPred](/packages/toPred)
