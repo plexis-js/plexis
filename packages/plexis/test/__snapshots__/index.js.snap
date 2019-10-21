@@ -50,5 +50,8 @@ Array [
   "dedent",
   "removeIndent",
   "withoutIndent",
+  "isAlphaNumeric",
+  "isAlphanumeric",
+  "isAlphaDigit",
 ]
 `;
