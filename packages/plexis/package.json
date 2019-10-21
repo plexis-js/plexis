@@ -9,13 +9,13 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "@plexis/is-lowercase": "^0.0.12",
+    "@plexis/to-capitals": "^0.0.12",
     "@plexis/to-lower": "^0.0.12",
     "@plexis/to-pred": "^0.0.12",
     "@plexis/to-succ": "^0.0.12",
     "@plexis/to-title": "^0.0.12",
-    "@plexis/to-capitals": "^0.0.12",
-    "@plexis/without-diacritics": "^0.0.12",
-    "@plexis/is-lowercase": "^0.0.12"
+    "@plexis/without-diacritics": "^0.0.12"
   },
   "keywords": [
     "utility",

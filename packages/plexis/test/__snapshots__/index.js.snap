@@ -8,7 +8,7 @@ Array [
   "toSucc",
   "toSuccessor",
   "toTitle",
-  "titleiz",
+  "titleize",
   "toLower",
   "toFirstLower",
   "decapitalize",
