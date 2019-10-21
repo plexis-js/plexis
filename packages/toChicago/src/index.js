@@ -102,14 +102,13 @@ const formatSentence = sentence =>
  
  */
 const toChicago = text =>
-  Array.from(
-    text
-      .replace(/\s+/, ' ')
-      .replace(/\s+([.?!,:;])\s*/, '$1 ')
-      .concat('.')
-      .matchAll(/(.*?)([.?!])/g),
-    x => formatSentence(x[1]) + x[2]
-  )
+  text
+    .replace(/\s+/, ' ')
+    .replace(/\s+([.?!,:;])\s*/, '$1 ')
+    .concat('.')
+    .match(/(.*?)([.?!])/g)
+    .map(sentence => sentence.match(/(.*?)([.?!])/))
+    .map(x => formatSentence(x[1]) + x[2])
     .join(' ')
     .slice(0, -1)
     .trimRight();
