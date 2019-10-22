@@ -17,11 +17,9 @@ Array [
   "removeDiacritics",
   "isLowerCase",
   "isLower",
-<<<<<<< HEAD
-  "isEmpty",
-=======
   "isUpperCase",
   "isUpper",
+  "isEmpty",
   "compose",
   "_do",
   "toTurabian",
@@ -29,6 +27,5 @@ Array [
   "toChicagoStyle",
   "toChicagoTitle",
   "startsWith",
->>>>>>> 244ac1bb8045a2e3121c34e10ead5d7cd711227d
 ]
 `;
