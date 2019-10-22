@@ -10,7 +10,7 @@ Cleanups a string from HTML tags.
 ```javascript
 import withoutHTML from '@plexis/without-html';
 
-withoutDiacritics('<b>Testing</b>'); // returns 'Testing'
+withoutHTML('<b>Testing</b>'); // returns 'Testing'
 ```
 
 **Aliases**
