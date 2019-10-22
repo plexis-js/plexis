@@ -7,6 +7,10 @@
   "authors": [
     "Nguyễn Tuấn Dũng <ntddebugger@gmail.com>"
   ],
+  "files": [
+    "dist",
+    "src"
+  ],
   "license": "MIT",
   "keywords": [
     "utility",
