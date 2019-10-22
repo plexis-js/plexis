@@ -1,6 +1,6 @@
 {
   "name": "@plexis/to-kebab-case",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
@@ -18,7 +18,9 @@
     "slugify"
   ],
   "description": "Converts a string to kebab case",
-  "authors": ["Antoine Ceol <antoine.ceol@gmail.com>"],
+  "authors": [
+    "Antoine Ceol <antoine.ceol@gmail.com>"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/plexis-js/plexis.git"

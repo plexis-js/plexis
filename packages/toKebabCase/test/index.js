@@ -17,12 +17,4 @@ describe('to-kebab-case', () => {
   it('convert camel case to kebab case', () => {
     expect(toKebabCase('CamelCaseIsNotThatBad')).toBe('camel-case-is-not-that-bad');
   });
-
-  it('is alias of dasherize', () => {
-    expect(dasherize).toBe(toKebabCase);
-  });
-
-  it('is alias of slugify', () => {
-    expect(slugify).toBe(toKebabCase);
-  });
 });
