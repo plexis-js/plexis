@@ -2,11 +2,11 @@
  * @description Converts a string to kebab case
  * @param {String} text
  * @example
- *  toKebabCase('Cool'); // returns 'cool'
- *  toKebabCase('cool mate'); // returns  'cool-mate'
- *  toKebabCase('Hey how are you today?'); // returns  'hey-how-are-you-today'
- *  toKebabCase('camelCase'); // returns  'camel-case'
- * toKebabCase('PascalCase'); // returns  'pascal-case'
+ * toKebabCase('Cool'); // returns 'cool'
+ * toKebabCase('cool mate'); // returns 'cool-mate'
+ * toKebabCase('Hey how are you today?'); // returns 'hey-how-are-you-today'
+ * toKebabCase('camelCase'); // returns 'camel-case'
+ * toKebabCase('PascalCase'); // returns 'pascal-case'
  */
 const toKebabCase = text =>
   text
