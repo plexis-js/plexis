@@ -19,6 +19,7 @@ Array [
   "isLower",
   "isUpperCase",
   "isUpper",
+  "isEmpty",
   "compose",
   "_do",
   "toTurabian",
