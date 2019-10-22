@@ -20,7 +20,7 @@ it('executes the function if the condition is a function and evaluates to true',
   expect(mock).toHaveBeenCalledWith(1);
 });
 
-it("doesn't execute the function if the condition is a function and evaluates to true", () => {
+it("doesn't execute the function if the condition is a function and evaluates to false", () => {
   const mock = jest.fn();
   when(x => x > 0, mock)(-1);
   expect(mock).toHaveBeenCalledTimes(0);
