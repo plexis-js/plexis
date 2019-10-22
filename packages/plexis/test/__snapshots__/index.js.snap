@@ -21,5 +21,9 @@ Array [
   "isUpper",
   "compose",
   "_do",
+  "toTurabian",
+  "toChicagoManualStyle",
+  "toChicagoStyle",
+  "toChicagoTitle",
 ]
 `;
