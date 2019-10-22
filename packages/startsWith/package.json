@@ -4,6 +4,10 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "author": "Brandon Skinner <brandon.m.skinner@gmail.com>",
   "license": "MIT",
   "keywords": [
