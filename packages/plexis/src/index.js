@@ -63,4 +63,4 @@ export {
   default as toKebabCase,
   default as dasherize,
   default as slugify
-} from '@plexis/toKebabCase';
+} from '@plexis/to-kebab-case';

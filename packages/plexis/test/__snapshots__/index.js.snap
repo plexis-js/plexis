@@ -61,5 +61,8 @@ Array [
   "isAlphaDigit",
   "withoutHTML",
   "removeHTML",
+  "toKebabCase",
+  "dasherize",
+  "slugify",
 ]
 `;
