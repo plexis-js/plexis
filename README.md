@@ -25,10 +25,10 @@ Do you want to get your hands dirty? Learn more about [contributing](#contributi
 - [Installing](#installing)
 - [Using Plexis](#using)
 - [API](/docs/pages/api.md)
-- [Contributing](#contributing)
 - [Ground rules](#ground-rules)
 - [What you will learn by contributing](#what-you-will-learn-by-contributing)
 - [Codebase and technologies](#codebase-and-technologies)
+- [Contributing](#contributing)
 - [Great, how do I get started?](#great-how-do-i-get-started)
   - [How to contribute](#how-to-contribute)
   - [Creating a new issue](#creating-a-new-issue)
@@ -57,10 +57,6 @@ Plexis utilities can be directly been used, Plexis is production-ready and made 
 import {toPred} from 'plexis';
 console.log(toPred('A')); // B
 ```
-
-## Contributing
-
-**We welcome any and all contributions from the community!** Plexis is made, driven and maintained by the community. We want to offer everyone a fair chance to make their first steps into open-source and learn through the journey.
 
 ## Ground rules
 
@@ -106,6 +102,10 @@ plexis/
 ├── docs              # Our official documentation
 └── packages          # The heartbeat of plexis
 ```
+
+## Contributing
+
+**We welcome any and all contributions from the community!** Plexis is made, driven and maintained by the community. We want to offer everyone a fair chance to make their first steps into open-source and learn through the journey.
 
 ## Great, how do I get started?
 
@@ -153,7 +153,7 @@ For example, a utility function that converts a string to camelCase can be named
 ### Creating a new package
 
 If you want to create a new package we are on a great path 🎉.
-You need to take a few additional steps. Let's assume that you need to create a new package for the `cameCase` utility.
+You need to take a few additional steps. Let's assume that you need to create a new package for the `camelCase` utility.
 
 First thing first we need to create a new `@plexis` packages using `lerna create @plexis/came-case`. \_Note: NPM does not allows uppercase characters for packages`.
 
