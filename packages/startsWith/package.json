@@ -1,16 +1,10 @@
 {
-  "name": "@plexis/to-lower",
+  "name": "@plexis/starts-with",
   "version": "0.0.14",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
-  "files": [
-    "dist",
-    "src"
-  ],
-  "authors": [
-    "4doge https://github.com/4doge"
-  ],
+  "author": "Brandon Skinner <brandon.m.skinner@gmail.com>",
   "license": "MIT",
   "keywords": [
     "utility",

@@ -1,9 +1,13 @@
 {
   "name": "@plexis/to-pred",
-  "version": "0.0.12",
+  "version": "0.0.14",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "authors": [
     "Theodore Vorillas <vorillaz@gmail.com> (https://vorillaz.com)"
   ],
