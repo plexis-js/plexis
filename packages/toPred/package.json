@@ -1,6 +1,6 @@
 {
   "name": "@plexis/to-pred",
-  "version": "0.0.13",
+  "version": "0.0.12",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
