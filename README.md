@@ -197,6 +197,8 @@ In a nutshell, to submit a pull request, follow these steps:
 10. Open a pull request in this repository with a clear title and description and link to any relevant issues
 11. Wait for a maintainer to review your pull request.
 
+:bulb: Tip: `yarn test` failing for `packages/plexis/test/index.js`? Try running `yarn bootstrap` before running `yarn test` again.
+
 ### Common issues and pitfalls
 
 - Lerna is a powerful tool, try to get through the documentation, make yourself familiar with the commands and follow the appropriate steps as described above.
