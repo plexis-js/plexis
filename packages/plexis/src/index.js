@@ -20,3 +20,4 @@ export {
   default as toChicagoStyle,
   default as toChicagoTitle
 } from '@plexis/to-chicago';
+export {default as startsWith} from '@plexis/starts-with';

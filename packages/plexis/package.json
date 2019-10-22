@@ -12,6 +12,7 @@
     "@plexis/compose": "^0.0.13",
     "@plexis/is-lowercase": "^0.0.13",
     "@plexis/is-uppercase": "^0.0.13",
+    "@plexis/starts-with": "^0.0.13",
     "@plexis/to-chicago": "^0.0.13",
     "@plexis/to-lower": "^0.0.13",
     "@plexis/to-pred": "^0.0.13",
