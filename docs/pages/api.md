@@ -1,5 +1,6 @@
 ## API
 
+- [cache](/packages/cache)
 - [compose](/packages/compose)
 - [isLowerCase](/packages/isLowerCase)
 - [isUpperCase](/packages/isUpperCase)
