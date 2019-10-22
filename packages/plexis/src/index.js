@@ -13,3 +13,13 @@ export {
 } from '@plexis/without-diacritics';
 export {default as isLowerCase, default as isLower} from '@plexis/is-lowercase';
 export {default as isEmpty} from '@plexis/is-empty';
+export {default as isUpperCase, default as isUpper} from '@plexis/is-uppercase';
+export {default as compose, default as _do} from '@plexis/compose';
+export {
+  default as toTurabian,
+  default as toChicagoManualStyle,
+  default as toChicagoStyle,
+  default as toChicagoTitle
+} from '@plexis/to-chicago';
+export {default as startsWith} from '@plexis/starts-with';
+

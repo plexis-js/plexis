@@ -18,5 +18,14 @@ Array [
   "isLowerCase",
   "isLower",
   "isEmpty",
+  "isUpperCase",
+  "isUpper",
+  "compose",
+  "_do",
+  "toTurabian",
+  "toChicagoManualStyle",
+  "toChicagoStyle",
+  "toChicagoTitle",
+  "startsWith",
 ]
 `;
