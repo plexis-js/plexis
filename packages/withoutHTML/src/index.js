@@ -10,7 +10,7 @@ function removeHTML(ogstr)
    if ((ogstr===null) || (ogstr===''))
        return false;
   else
-   str = ogstr.toString();
+   ogstr = ogstr.toString();
   return ogstr.replace(/<[^>]*>/g, '');
 }
  
