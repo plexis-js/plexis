@@ -10,3 +10,4 @@
 - [toSucc](/packages/toSucc)
 - [toTitle](/packages/toTitle)
 - [withoutDiacritics](/packages/withoutDiacritics)
+- [withoutIndent](/packages/withoutIndent)
