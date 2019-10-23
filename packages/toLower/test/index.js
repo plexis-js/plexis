@@ -1,17 +1,19 @@
 import toLower from '../src';
 
-it('lowercase only the first letter in single word', () => {
-  expect(toLower('HeLLo', false)).toBe('heLLo');
-});
+describe('toLower', () => {
+  it('lowercases only the first letter in single word', () => {
+    expect(toLower('HeLLo', false)).toBe('heLLo');
+  });
 
-it('lowercase only the first letter in multiword sentense', () => {
-  expect(toLower('HeLLo WorLD', false)).toBe('heLLo WorLD');
-});
+  it('lowercases only the first letter in multiword sentence', () => {
+    expect(toLower('HeLLo WorLD', false)).toBe('heLLo WorLD');
+  });
 
-it('lowercase all single word letters', () => {
-  expect(toLower('HeLLo', true)).toBe('hello');
-});
+  it('lowercases all single word letters', () => {
+    expect(toLower('HeLLo', true)).toBe('hello');
+  });
 
-it('lowercase all multiword sentense letters', () => {
-  expect(toLower('HeLLo WorLD', true)).toBe('hello world');
+  it('lowercases all multiword sentence letters', () => {
+    expect(toLower('HeLLo WorLD', true)).toBe('hello world');
+  });
 });

@@ -1,17 +1,16 @@
 import isLowerCase from '../src';
 
-it('check a uppercase string', () => {
-  expect(isLowerCase('HELLO')).toBe(false);
-});
+describe('isLowerCase', () => {
+  it('returns false for strings containing one or more uppercase characters', () => {
+    expect(isLowerCase('HELLO')).toBe(false);
+    expect(isLowerCase('A')).toBe(false);
+    expect(isLowerCase('WHAT EVER')).toBe(false);
+    expect(isLowerCase('Test')).toBe(false);
+  });
 
-it('check a lowercase with spaces string', () => {
-  expect(isLowerCase('foo bar')).toBe(true);
-});
-
-it('check a lowercase string', () => {
-  expect(isLowerCase('hello')).toBe(true);
-});
-
-it('check a lowercase string with an uppercase char in the middle', () => {
-  expect(isLowerCase('hello Foo bar')).toBe(false);
+  it('returns true for all lowercase character strings', () => {
+    expect(isLowerCase('foo')).toBe(true);
+    expect(isLowerCase('foo bar')).toBe(true);
+    expect(isLowerCase('foo bar test123')).toBe(true);
+  });
 });

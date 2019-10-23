@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`allows using all the available utilities 1`] = `
+exports[`plexis allows using all the available utilities 1`] = `
 Array [
   "__esModule",
   "toPred",
