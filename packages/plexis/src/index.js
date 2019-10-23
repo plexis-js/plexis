@@ -26,3 +26,4 @@ export {
   default as calcLevenshtein,
   default as levenshtein
 } from '@plexis/distance';
+export {default as isString} from '@plexis/is-string';
