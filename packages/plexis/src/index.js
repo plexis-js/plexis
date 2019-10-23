@@ -21,4 +21,4 @@ export {
   default as toChicagoTitle
 } from '@plexis/to-chicago';
 export {default as startsWith} from '@plexis/starts-with';
-export {default as when} from '@plexis/when';
+export {default as _when} from '@plexis/when';
