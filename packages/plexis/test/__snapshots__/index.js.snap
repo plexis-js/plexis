@@ -26,5 +26,8 @@ Array [
   "toChicagoStyle",
   "toChicagoTitle",
   "startsWith",
+  "withoutIndent",
+  "dedent",
+  "removeIndent",
 ]
 `;
