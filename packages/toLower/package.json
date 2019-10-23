@@ -1,6 +1,6 @@
 {
   "name": "@plexis/to-lower",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
