@@ -2,6 +2,7 @@
 
 - [cache](/packages/cache)
 - [compose](/packages/compose)
+- [distance](/packages/distance)
 - [isLowerCase](/packages/isLowerCase)
 - [isUpperCase](/packages/isUpperCase)
 - [startsWith](/packages/startsWith)
