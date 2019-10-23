@@ -68,5 +68,10 @@ Array [
   "calcLevenshtein",
   "levenshtein",
   "isString",
+  "withoutIndent",
+  "removeIndent",
+  "dedent",
+  "toPascalCase",
+  "classify",
 ]
 `;
