@@ -27,5 +27,9 @@ Array [
   "toChicagoTitle",
   "startsWith",
   "_when",
+  "distance",
+  "calcLevenshtein",
+  "levenshtein",
+  "isString",
 ]
 `;
