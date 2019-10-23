@@ -1,5 +1,5 @@
 {
-  "name": "@plexis/to-lower",
+  "name": "@plexis/compose",
   "version": "0.0.14",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -9,15 +9,12 @@
     "src"
   ],
   "authors": [
-    "4doge https://github.com/4doge"
+    "Nguyễn Tuấn Dũng <ntddebugger@gmail.com>"
   ],
   "license": "MIT",
   "keywords": [
     "utility",
-    "string",
-    "parse",
-    "format",
-    "validate"
+    "function"
   ],
   "repository": {
     "type": "git",
