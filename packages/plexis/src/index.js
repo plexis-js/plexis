@@ -32,3 +32,8 @@ export {
   default as levenshtein
 } from '@plexis/distance';
 export {default as isString} from '@plexis/is-string';
+export {
+  default as withoutIndent,
+  default as removeIndent,
+  default as dedent
+} from '@plexis/without-indent';
