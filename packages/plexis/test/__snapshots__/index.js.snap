@@ -34,7 +34,7 @@ Array [
   "levenshtein",
   "isString",
   "withoutIndent",
-  "dedent",
   "removeIndent",
+  "dedent",
 ]
 `;
