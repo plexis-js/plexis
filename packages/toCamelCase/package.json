@@ -1,34 +1,29 @@
 {
   "name": "@plexis/to-camel-case",
-  "version": "0.0.12",
-  "description": "Convert string to camel case",
-  "keywords": [
-    "camel",
-    "case",
-    "camelcase"
-  ],
-  "author": "Andres Ruiz-Velediaz <aruiz858@gmail.com>",
-  "homepage": "https://github.com/Mercyfulsin/plexis#readme",
-  "license": "ISC",
-  "main": "lib/camel-case.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
+  "version": "0.0.14",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "./src/index.js",
   "files": [
-    "lib"
+    "dist",
+    "src"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "authors": [
+    "Theodore Vorillas <vorillaz@gmail.com> (https://vorillaz.com)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "utility",
+    "string",
+    "parse",
+    "format",
+    "validate"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mercyfulsin/plexis.git"
+    "url": "git+https://github.com/plexis-js/plexis.git"
   },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "bugs": {
-    "url": "https://github.com/Mercyfulsin/plexis/issues"
+  "publishConfig": {
+    "access": "public"
   }
 }
