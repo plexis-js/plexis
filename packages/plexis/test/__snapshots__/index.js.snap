@@ -36,5 +36,7 @@ Array [
   "withoutIndent",
   "removeIndent",
   "dedent",
+  "toPascalCase",
+  "classify",
 ]
 `;

@@ -24,7 +24,8 @@
     "@plexis/to-title": "^0.0.15",
     "@plexis/without-diacritics": "^0.0.15",
     "@plexis/without-indent": "^0.0.1",
-    "@plexis/to-camel-case": "^0.0.15"
+    "@plexis/to-camel-case": "^0.0.15",
+    "@plexis/to-pascal-case": "^0.0.15"
   },
   "keywords": [
     "utility",

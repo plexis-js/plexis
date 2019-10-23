@@ -37,3 +37,4 @@ export {
   default as removeIndent,
   default as dedent
 } from '@plexis/without-indent';
+export {default as toPascalCase, default as classify} from '@plexis/to-pascal-case';
