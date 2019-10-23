@@ -21,3 +21,8 @@ export {
   default as toChicagoTitle
 } from '@plexis/to-chicago';
 export {default as startsWith} from '@plexis/starts-with';
+export {
+  default as distance,
+  default as calcLevenshtein,
+  default as levenshtein
+} from '@plexis/distance';
