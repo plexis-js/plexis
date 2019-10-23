@@ -17,6 +17,7 @@
     "@plexis/is-lowercase": "^0.0.14",
     "@plexis/is-uppercase": "^0.0.14",
     "@plexis/starts-with": "^0.0.14",
+    "@plexis/to-camel-case": "^0.0.14",
     "@plexis/to-chicago": "^0.0.14",
     "@plexis/to-lower": "^0.0.14",
     "@plexis/to-pred": "^0.0.14",
