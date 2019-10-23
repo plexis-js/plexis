@@ -26,5 +26,7 @@ Array [
   "toChicagoStyle",
   "toChicagoTitle",
   "startsWith",
+  "toPascalCase",
+  "classify",
 ]
 `;
