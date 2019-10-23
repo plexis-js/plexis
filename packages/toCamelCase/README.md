@@ -21,5 +21,6 @@ toCamelCase('kebab-case'); // => kebabCase
 
 ```javascript
 import {toCamelCase} from 'plexis';
-import {toCamel} from 'plexis';
+import {camelCase} from 'plexis';
+import {camelize} from 'plexis';
 ```
