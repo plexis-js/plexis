@@ -64,3 +64,8 @@ export {
   default as dasherize,
   default as slugify
 } from '@plexis/to-kebab-case';
+export {
+  default as distance,
+  default as calcLevenshtein,
+  default as levenshtein
+} from '@plexis/distance';

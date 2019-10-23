@@ -64,5 +64,8 @@ Array [
   "toKebabCase",
   "dasherize",
   "slugify",
+  "distance",
+  "calcLevenshtein",
+  "levenshtein",
 ]
 `;
