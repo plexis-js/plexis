@@ -29,5 +29,9 @@ Array [
   "withoutIndent",
   "removeIndent",
   "dedent",
+  "distance",
+  "calcLevenshtein",
+  "levenshtein",
+  "isString",
 ]
 `;

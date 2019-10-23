@@ -1,6 +1,8 @@
 ## API
 
+- [cache](/packages/cache)
 - [compose](/packages/compose)
+- [distance](/packages/distance)
 - [isLowerCase](/packages/isLowerCase)
 - [isUpperCase](/packages/isUpperCase)
 - [startsWith](/packages/startsWith)
@@ -11,3 +13,4 @@
 - [toTitle](/packages/toTitle)
 - [withoutDiacritics](/packages/withoutDiacritics)
 - [withoutIndent](/packages/withoutIndent)
+- [isString](/packages/isString)
