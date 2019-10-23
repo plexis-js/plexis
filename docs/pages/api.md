@@ -13,3 +13,4 @@
 - [toTitle](/packages/toTitle)
 - [withoutDiacritics](/packages/withoutDiacritics)
 - [isString](/packages/isString)
+- [withoutIndent](/packages/withoutIndent)
