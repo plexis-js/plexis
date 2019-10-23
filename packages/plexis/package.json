@@ -24,7 +24,8 @@
     "@plexis/to-pred": "^0.0.15",
     "@plexis/to-succ": "^0.0.15",
     "@plexis/to-title": "^0.0.15",
-    "@plexis/without-diacritics": "^0.0.15"
+    "@plexis/without-diacritics": "^0.0.15",
+    "@plexis/is-empty": "^0.0.15"
   },
   "keywords": [
     "utility",
