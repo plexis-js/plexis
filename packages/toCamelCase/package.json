@@ -1,5 +1,5 @@
 {
-  "name": "@plexis/to-lower",
+  "name": "@plexis/to-camel-case",
   "version": "0.0.14",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -9,7 +9,7 @@
     "src"
   ],
   "authors": [
-    "4doge https://github.com/4doge"
+    "Theodore Vorillas <vorillaz@gmail.com> (https://vorillaz.com)"
   ],
   "license": "MIT",
   "keywords": [

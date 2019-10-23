@@ -15,5 +15,16 @@ Array [
   "withoutDiacritics",
   "cleanDiacritics",
   "removeDiacritics",
+  "isLowerCase",
+  "isLower",
+  "isUpperCase",
+  "isUpper",
+  "compose",
+  "_do",
+  "toTurabian",
+  "toChicagoManualStyle",
+  "toChicagoStyle",
+  "toChicagoTitle",
+  "startsWith",
 ]
 `;
