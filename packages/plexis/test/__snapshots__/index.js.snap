@@ -67,5 +67,6 @@ Array [
   "distance",
   "calcLevenshtein",
   "levenshtein",
+  "isString",
 ]
 `;
