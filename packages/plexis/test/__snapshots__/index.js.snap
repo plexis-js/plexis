@@ -27,7 +27,7 @@ Array [
   "toChicagoTitle",
   "startsWith",
   "withoutIndent",
-  "dedent",
   "removeIndent",
+  "dedent",
 ]
 `;
