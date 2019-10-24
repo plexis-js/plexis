@@ -1,22 +1,17 @@
 {
-  "name": "@plexis/to-chicago",
-  "version": "0.0.15",
+  "name": "@plexis/without-indent",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
-  "authors": [
-    "Nguyễn Tuấn Dũng <ntddebugger@gmail.com>"
-  ],
-  "files": [
-    "dist",
-    "src"
-  ],
+  "files": ["dist", "src"],
   "license": "MIT",
   "keywords": [
     "utility",
     "string",
     "parse",
-    "format"
+    "format",
+    "validate"
   ],
   "repository": {
     "type": "git",

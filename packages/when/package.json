@@ -1,12 +1,9 @@
 {
-  "name": "@plexis/to-chicago",
-  "version": "0.0.15",
+  "name": "@plexis/when",
+  "version": "0.0.14",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
-  "authors": [
-    "Nguyễn Tuấn Dũng <ntddebugger@gmail.com>"
-  ],
   "files": [
     "dist",
     "src"
@@ -16,7 +13,8 @@
     "utility",
     "string",
     "parse",
-    "format"
+    "format",
+    "validate"
   ],
   "repository": {
     "type": "git",
