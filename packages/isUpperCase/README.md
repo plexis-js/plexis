@@ -9,9 +9,9 @@ Checks whether the input is a string containing only uppercase characters
 ```javascript
 import isUpperCase from '@plexis/is-uppercase';
 
-isUpperCase️('b') // returns false
-isUpperCase️('B') // returns true
-isUpperCase️('BCD') // returns true
+isUpperCase️('b'); // returns false
+isUpperCase️('B'); // returns true
+isUpperCase️('BCD'); // returns true
 ```
 
 **Aliases**
