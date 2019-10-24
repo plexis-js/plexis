@@ -9,6 +9,8 @@ Array [
   "toSuccessor",
   "toTitle",
   "titleize",
+  "isNumeric",
+  "isNum",
   "toLower",
   "toFirstLower",
   "decapitalize",

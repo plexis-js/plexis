@@ -7,9 +7,6 @@
  * isNumeric('Foo') // returns false
  */
 
-const isNumeric = value => {
-  const valueToNumber = Number(value);
-  return !isNaN(valueToNumber) && typeof valueToNumber === 'number';
-};
+const isNumeric = value => !isNaN(Number(value));
 
 export default isNumeric;
