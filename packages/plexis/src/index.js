@@ -60,11 +60,6 @@ export {
 } from '@plexis/is-alphanumeric';
 export {default as withoutHTML, default as removeHTML} from '@plexis/without-html';
 export {
-  default as toKebabCase,
-  default as dasherize,
-  default as slugify
-} from '@plexis/to-kebab-case';
-export {
   default as distance,
   default as calcLevenshtein,
   default as levenshtein
