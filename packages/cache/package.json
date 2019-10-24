@@ -6,6 +6,10 @@
   "jsnext:main": "./src/index.js",
   "license": "MIT",
   "description": "A caching mechanism for string operations. ",
+  "files": [
+    "dist",
+    "src"
+  ],
   "authors": [
     "Theodore Vorillas <vorillaz@gmail.com> (https://vorillaz.com)",
     "roemhildtg <roemhildtg@gmail.com>"
