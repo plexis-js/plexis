@@ -1,6 +1,6 @@
 # `@plexis/toCamelCase`
 
-Convert given string to camel case
+Converts the input text to camelCase.
 
 **Installation**
 `npm i @plexis/to-camel-case`
