@@ -33,5 +33,7 @@ Array [
   "calcLevenshtein",
   "levenshtein",
   "isString",
+  "toPascalCase",
+  "classify",
 ]
 `;

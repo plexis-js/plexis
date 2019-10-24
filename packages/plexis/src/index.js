@@ -32,3 +32,4 @@ export {
   default as levenshtein
 } from '@plexis/distance';
 export {default as isString} from '@plexis/is-string';
+export {default as toPascalCase, default as classify} from '@plexis/to-pascal-case';
