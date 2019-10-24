@@ -27,6 +27,11 @@ export {
 } from '@plexis/to-chicago';
 export {default as startsWith} from '@plexis/starts-with';
 export {
+  default as withoutIndent,
+  default as removeIndent,
+  default as dedent
+} from '@plexis/without-indent';
+export {
   default as distance,
   default as calcLevenshtein,
   default as levenshtein
