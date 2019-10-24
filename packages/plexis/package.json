@@ -29,7 +29,7 @@
     "@plexis/when": "^0.0.14",
     "@plexis/without-diacritics": "^0.0.15",
     "@plexis/without-indent": "^0.0.1",
-    "@plexis/to-chunks": "^0.0.15"
+    "@plexis/to-chunks": "^0.0.14"
   },
   "keywords": [
     "utility",
