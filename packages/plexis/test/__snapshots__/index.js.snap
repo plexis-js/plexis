@@ -29,6 +29,7 @@ Array [
   "toChicagoStyle",
   "toChicagoTitle",
   "startsWith",
+  "toChunks",
   "_when",
   "withoutIndent",
   "removeIndent",
@@ -39,7 +40,6 @@ Array [
   "isString",
   "toPascalCase",
   "classify",
-  "toChunks",
   "escapeHTML",
 ]
 `;
