@@ -30,5 +30,4 @@
 - [withoutDiacritics](/packages/withoutDiacritics)
 - [withoutHTML](/packages/withoutHTML)
 - [withoutIndent](/packages/withoutIndent)
-- [escapeHTML](/packages/escapeHTML)
 - [toKebabCase](/packages/toKebabCase)
