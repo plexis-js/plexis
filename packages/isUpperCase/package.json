@@ -1,6 +1,6 @@
 {
   "name": "@plexis/is-uppercase",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
