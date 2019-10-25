@@ -1,5 +1,5 @@
 {
-  "name": "@plexis/to-pascal-case",
+  "name": "@plexis/is-uppercase",
   "version": "0.0.18",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -7,9 +7,6 @@
   "files": [
     "dist",
     "src"
-  ],
-  "authors": [
-    "Jack Chapman <jackchapman093@gmail.com>"
   ],
   "license": "MIT",
   "keywords": [

@@ -26,15 +26,17 @@ export {
   default as toChicagoTitle
 } from '@plexis/to-chicago';
 export {default as startsWith} from '@plexis/starts-with';
+export {default as _when} from '@plexis/when';
+export {
+  default as withoutIndent,
+  default as removeIndent,
+  default as dedent
+} from '@plexis/without-indent';
 export {
   default as distance,
   default as calcLevenshtein,
   default as levenshtein
 } from '@plexis/distance';
 export {default as isString} from '@plexis/is-string';
-export {
-  default as withoutIndent,
-  default as removeIndent,
-  default as dedent
-} from '@plexis/without-indent';
 export {default as toPascalCase, default as classify} from '@plexis/to-pascal-case';
+export {default as escapeHTML} from '@plexis/escape-html';
