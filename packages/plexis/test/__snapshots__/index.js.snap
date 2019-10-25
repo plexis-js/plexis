@@ -39,5 +39,6 @@ Array [
   "isString",
   "toPascalCase",
   "classify",
+  "escapeHTML",
 ]
 `;

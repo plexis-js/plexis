@@ -39,3 +39,4 @@ export {
 } from '@plexis/distance';
 export {default as isString} from '@plexis/is-string';
 export {default as toPascalCase, default as classify} from '@plexis/to-pascal-case';
+export {default as escapeHTML} from '@plexis/escape-html';
