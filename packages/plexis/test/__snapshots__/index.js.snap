@@ -64,17 +64,5 @@ Array [
   "toKebabCase",
   "dasherize",
   "slugify",
-  "distance",
-  "calcLevenshtein",
-  "levenshtein",
-  "isString",
-  "withoutIndent",
-  "removeIndent",
-  "dedent",
-  "toPascalCase",
-  "classify",
-  "toKebabCase",
-  "dasherize",
-  "slugify",
 ]
 `;

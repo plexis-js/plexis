@@ -60,18 +60,6 @@ export {
 } from '@plexis/is-alphanumeric';
 export {default as withoutHTML, default as removeHTML} from '@plexis/without-html';
 export {
-  default as distance,
-  default as calcLevenshtein,
-  default as levenshtein
-} from '@plexis/distance';
-export {default as isString} from '@plexis/is-string';
-export {
-  default as withoutIndent,
-  default as removeIndent,
-  default as dedent
-} from '@plexis/without-indent';
-export {default as toPascalCase, default as classify} from '@plexis/to-pascal-case';
-export {
   default as toKebabCase,
   default as dasherize,
   default as slugify
