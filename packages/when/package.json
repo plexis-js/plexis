@@ -1,6 +1,6 @@
 {
   "name": "@plexis/when",
-  "version": "0.0.14",
+  "version": "0.0.17",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
