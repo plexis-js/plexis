@@ -13,7 +13,7 @@ export default input =>
     .toString()
     .split('')
     .map(c => {
-      let lowerC = c.toLocaleLowerCase();
-      return lowerC === c ? c.toLocaleUpperCase() : lowerC;
+      const lower = c.toLocaleLowerCase();
+      return lower === c ? c.toLocaleUpperCase() : lower;
     })
     .join('');
