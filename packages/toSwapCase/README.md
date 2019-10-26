@@ -1,24 +1,20 @@
-# `@plexis/toLower`
+## `@plexis/toSwapCase`
 
-Lowercase the first letter of the given string.
-
-**Installation**
-`npm i @plexis/to-lower`
-
-**Usage**
+Swaps alphabet case from a string
 
 ```javascript
-import toLower from '@plexis/to-lower';
+import toSwapCase from '@plexis/to-swap-case';
 
-toLower('Foo Bar', false); // returns 'foo Bar'
-toLower('Foo Bar', true); // returns 'foo bar'
-toLower('FOO BAR', false); // returns 'fOO BAR'
+toSwapCase('Hello WORLD');
+// => 'hELLO world'
+
+toSwapCase('123 toys');
+// => '123 toys'
 ```
 
 **Aliases**
 
 ```javascript
-import {toLower} from 'plexis';
-import {toFirstLower} from 'plexis';
-import {decapitalize} from 'plexis';
+import toSwapCase from '@plexis/to-swap-case';
+import {toSwapCase, swapCase} from 'plexis';
 ```

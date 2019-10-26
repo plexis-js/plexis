@@ -4,7 +4,7 @@
  * @returns {string}
  * @constructor
  */
-const SwapCase = text => {
+const swapCase = text => {
   let new_string = '';
 
   for (let char of text) {
@@ -17,4 +17,4 @@ const SwapCase = text => {
   return new_string;
 };
 
-export default SwapCase;
+export default swapCase;

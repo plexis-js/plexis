@@ -8,7 +8,7 @@ it('swap cases', () => {
   expect(toSwapCase('123 HeLLo 123 WorLD')).toBe('123 hEllO 123 wORld');
 });
 
-it('swap cases', () => {
+it('swap cases numbers in-between word', () => {
   expect(toSwapCase('He2LL1o')).toBe('hE2ll1O');
 });
 
