@@ -11,7 +11,7 @@ Swaps lowercase to uppercase and vice versa for the input text.
 import toSwapCase from '@plexis/to-swap-case';
 
 toSwapCase('Hello WORLD'); // => 'hELLO world'
-toSwapCase('123 toys'); // => '123 toys'
+toSwapCase('123 toys'); // => '123 TOYS'
 ```
 
 **Aliases**
