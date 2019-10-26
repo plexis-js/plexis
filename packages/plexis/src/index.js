@@ -26,7 +26,7 @@ export {
   default as toChicagoStyle,
   default as toChicagoTitle
 } from '@plexis/to-chicago';
-export {default as toSnakeCase} from '@plexis/to-snake-case';
+export {default as toSnakeCase, default as snakeCase} from '@plexis/to-snake-case';
 export {default as startsWith} from '@plexis/starts-with';
 export {default as toChunks} from '@plexis/to-chunks';
 export {default as _when} from '@plexis/when';
