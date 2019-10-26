@@ -1,11 +1,22 @@
-# `@plexis/swap-case`
+# `@plexis/to-swap-case`
 
-> TODO: description
+Swaps lowercase to uppercase and vice versa for the input text.
 
-## Usage
+**Installation**
+`npm i @plexis/to-swap-case`
 
+**Usage**
+
+```javascript
+import toSwapCase from '@plexis/to-swap-case';
+
+toSwapCase('Hello WORLD'); // => 'hELLO world'
+toSwapCase('123 toys'); // => '123 toys'
 ```
-const swapCase = require('@plexis/swap-case');
 
-// TODO: DEMONSTRATE API
+**Aliases**
+
+```javascript
+import toSwapCase from '@plexis/to-swap-case';
+import {toSwapCase, swapCase} from 'plexis';
 ```

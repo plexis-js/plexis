@@ -2,6 +2,6 @@
 
 const swapCase = require('..');
 
-describe('@plexis/swap-case', () => {
+describe('@plexis/to-swap-case', () => {
   it('needs tests');
 });
