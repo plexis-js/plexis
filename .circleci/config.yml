@@ -8,7 +8,6 @@ jobs:
     <<: *defaults
     steps:
       - checkout
-
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "package.json" }}
@@ -20,8 +19,8 @@ jobs:
           command: yarn bootstrap
 
       - run:
-          name: Run tests
-          command: yarn test
+          name: Run tests and collect coverage report
+          command: yarn cover
 
       - save_cache:
           paths:
