@@ -1,6 +1,6 @@
 {
   "name": "@plexis/is-numeric",
-  "version": "0.0.15",
+  "version": "0.0.19",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
