@@ -1,6 +1,7 @@
 {
-  "name": "@plexis/to-pascal-case",
+  "name": "@plexis/to-chunks",
   "version": "0.0.18",
+  "description": "Splits the input text into an array of chunks.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
@@ -8,16 +9,11 @@
     "dist",
     "src"
   ],
-  "authors": [
-    "Jack Chapman <jackchapman093@gmail.com>"
-  ],
+  "author": "korczynsk1",
   "license": "MIT",
   "keywords": [
-    "utility",
-    "string",
-    "parse",
-    "format",
-    "validate"
+    "chunks",
+    "string"
   ],
   "repository": {
     "type": "git",

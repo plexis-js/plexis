@@ -1,17 +1,15 @@
 {
-  "name": "@plexis/to-pascal-case",
-  "version": "0.0.18",
+  "name": "@plexis/is-numeric",
+  "version": "0.0.15",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
+  "author": "edKim <nauthiz.jera@gmail.com>",
+  "license": "MIT",
   "files": [
     "dist",
     "src"
   ],
-  "authors": [
-    "Jack Chapman <jackchapman093@gmail.com>"
-  ],
-  "license": "MIT",
   "keywords": [
     "utility",
     "string",
@@ -19,11 +17,11 @@
     "format",
     "validate"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/plexis-js/plexis.git"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }

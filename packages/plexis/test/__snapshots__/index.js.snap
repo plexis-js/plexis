@@ -9,6 +9,8 @@ Array [
   "toSuccessor",
   "toTitle",
   "titleize",
+  "isNumeric",
+  "isNum",
   "toCamelCase",
   "camelize",
   "camelCase",
@@ -29,6 +31,8 @@ Array [
   "toChicagoStyle",
   "toChicagoTitle",
   "startsWith",
+  "toChunks",
+  "_when",
   "withoutIndent",
   "removeIndent",
   "dedent",
@@ -39,5 +43,6 @@ Array [
   "isEmpty",
   "toPascalCase",
   "classify",
+  "escapeHTML",
 ]
 `;
