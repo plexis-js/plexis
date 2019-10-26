@@ -1,6 +1,6 @@
 'use strict';
 
-export default swapCase = input => {
+export default input => {
   let text = input.toString().split('');
 
   return text
