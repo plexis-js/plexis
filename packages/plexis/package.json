@@ -19,6 +19,7 @@
     "@plexis/is-lowercase": "^0.0.18",
     "@plexis/is-string": "^0.0.18",
     "@plexis/is-uppercase": "^0.0.18",
+    "@plexis/is-numeric": "^0.0.15",
     "@plexis/starts-with": "^0.0.18",
     "@plexis/to-camel-case": "^0.0.18",
     "@plexis/to-chicago": "^0.0.18",

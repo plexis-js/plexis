@@ -5,6 +5,7 @@
 - [distance](/packages/distance)
 - [isLowerCase](/packages/isLowerCase)
 - [isUpperCase](/packages/isUpperCase)
+- [isNumeric](/packages/isNumeric)
 - [startsWith](/packages/startsWith)
 - [toChicago](/packages/toChicago)
 - [toLower](/packages/toLower)
