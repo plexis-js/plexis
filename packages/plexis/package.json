@@ -27,6 +27,7 @@
     "@plexis/to-chunks": "^0.0.19",
     "@plexis/to-lower": "^0.0.19",
     "@plexis/to-pascal-case": "^0.0.19",
+    "@plexis/to-snake-case": "^0.0.19",
     "@plexis/to-pred": "^0.0.19",
     "@plexis/to-succ": "^0.0.19",
     "@plexis/to-title": "^0.0.19",

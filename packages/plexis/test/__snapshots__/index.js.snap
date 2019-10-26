@@ -31,6 +31,8 @@ Array [
   "toChicagoManualStyle",
   "toChicagoStyle",
   "toChicagoTitle",
+  "toSnakeCase",
+  "snakeCase",
   "startsWith",
   "toChunks",
   "_when",
