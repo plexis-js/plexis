@@ -1,0 +1,32 @@
+{
+  "name": "@plexis/cache",
+  "version": "0.0.19",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "./src/index.js",
+  "license": "MIT",
+  "description": "A caching mechanism for string operations. ",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "authors": [
+    "Theodore Vorillas <vorillaz@gmail.com> (https://vorillaz.com)",
+    "roemhildtg <roemhildtg@gmail.com>"
+  ],
+  "keywords": [
+    "utility",
+    "string",
+    "parse",
+    "format",
+    "validate",
+    "cache"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plexis-js/plexis.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

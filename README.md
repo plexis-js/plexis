@@ -8,6 +8,10 @@
 
 This is the main monorepo codebase of Plexis.js a production-ready string manipulation libray that's community driven.
 
+[![npm version](https://badge.fury.io/js/plexis.svg)](https://www.npmjs.com/package/plexis)
+[![bundle size](https://badgen.net/bundlephobia/minzip/plexis)](https://bundlephobia.com/result?p=plexis)
+[![CircleCI](https://circleci.com/gh/plexis-js/plexis/tree/master.svg?style=shield)](https://circleci.com/gh/plexis-js/plexis/tree/master)
+
 ## What is Plexis?
 
 ### Vision
@@ -196,6 +200,8 @@ In a nutshell, to submit a pull request, follow these steps:
 9. Push your branch to origin.
 10. Open a pull request in this repository with a clear title and description and link to any relevant issues
 11. Wait for a maintainer to review your pull request.
+
+:bulb: Tip: `yarn test` failing for `packages/plexis/test/index.js`? Try running `yarn bootstrap` before running `yarn test` again.
 
 ### Common issues and pitfalls
 

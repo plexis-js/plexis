@@ -4,6 +4,7 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
+  "files": ["dist", "src"],
   "license": "MIT",
   "keywords": [
     "utility",

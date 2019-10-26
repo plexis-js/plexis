@@ -1,11 +1,18 @@
 ## API
 
+- [cache](/packages/cache)
 - [compose](/packages/compose)
+- [distance](/packages/distance)
 - [isLowerCase](/packages/isLowerCase)
 - [isUpperCase](/packages/isUpperCase)
+- [isNumeric](/packages/isNumeric)
+- [startsWith](/packages/startsWith)
 - [toChicago](/packages/toChicago)
 - [toLower](/packages/toLower)
 - [toPred](/packages/toPred)
 - [toSucc](/packages/toSucc)
 - [toTitle](/packages/toTitle)
 - [withoutDiacritics](/packages/withoutDiacritics)
+- [withoutIndent](/packages/withoutIndent)
+- [isString](/packages/isString)
+- [escapeHTML](/packages/escapeHTML)

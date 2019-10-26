@@ -1,9 +1,13 @@
 {
   "name": "@plexis/compose",
-  "version": "0.0.13",
+  "version": "0.0.19",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "authors": [
     "Nguyễn Tuấn Dũng <ntddebugger@gmail.com>"
   ],

@@ -1,24 +1,38 @@
 {
   "name": "plexis",
-  "version": "0.0.13",
+  "version": "0.0.19",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "authors": [
     "Theodore Vorillas <vorillaz@gmail.com> (https://vorillaz.com)"
   ],
   "license": "MIT",
   "dependencies": {
-    "@plexis/compose": "^0.0.13",
-    "@plexis/is-lowercase": "^0.0.13",
-    "@plexis/is-uppercase": "^0.0.13",
-    "@plexis/to-chicago": "^0.0.13",
-    "@plexis/to-lower": "^0.0.13",
-    "@plexis/to-pred": "^0.0.13",
-    "@plexis/to-succ": "^0.0.13",
-    "@plexis/to-title": "^0.0.13",
-    "@plexis/without-diacritics": "^0.0.13",
-    "@plexis/to-snake-case": "^0.0.13"
+    "@plexis/compose": "^0.0.19",
+    "@plexis/distance": "^0.0.19",
+    "@plexis/escape-html": "^0.0.19",
+    "@plexis/is-lowercase": "^0.0.19",
+    "@plexis/is-numeric": "^0.0.19",
+    "@plexis/is-string": "^0.0.19",
+    "@plexis/is-uppercase": "^0.0.19",
+    "@plexis/starts-with": "^0.0.19",
+    "@plexis/to-camel-case": "^0.0.19",
+    "@plexis/to-chicago": "^0.0.19",
+    "@plexis/to-chunks": "^0.0.19",
+    "@plexis/to-lower": "^0.0.19",
+    "@plexis/to-pascal-case": "^0.0.19",
+    "@plexis/to-snake-case": "^0.0.19",
+    "@plexis/to-pred": "^0.0.19",
+    "@plexis/to-succ": "^0.0.19",
+    "@plexis/to-title": "^0.0.19",
+    "@plexis/when": "^0.0.19",
+    "@plexis/without-diacritics": "^0.0.19",
+    "@plexis/without-indent": "^0.0.19"
   },
   "keywords": [
     "utility",
