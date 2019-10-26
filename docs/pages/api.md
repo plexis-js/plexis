@@ -3,6 +3,7 @@
 - [cache](/packages/cache)
 - [compose](/packages/compose)
 - [distance](/packages/distance)
+- [isAlpha](/packages/isAlpha)
 - [isLowerCase](/packages/isLowerCase)
 - [isUpperCase](/packages/isUpperCase)
 - [isNumeric](/packages/isNumeric)
