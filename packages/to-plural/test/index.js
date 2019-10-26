@@ -11,5 +11,6 @@ describe('@plexis/to-plural', () => {
     expect(toPlural('example', 'examplez', 0)).toBe('examplez');
     expect(toPlural('example', 'examplez', 1)).toBe('example');
     expect(toPlural('example', 'examplez', -1)).toBe('example');
+    expect(toPlural('example', 'examplez')).toBe('example');
   });
 });

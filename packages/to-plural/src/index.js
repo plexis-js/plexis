@@ -13,6 +13,8 @@
  */
 
 const toPlural = (word, ...rest) => {
+  if (rest.length === 1 && typeof rest[0] === 'string') return word;
+
   const isPlural = rest.length === 0 || Math.abs(rest[rest.length - 1]) !== 1;
   const pluralForm = rest.length === 2 ? rest[0] : `${word}s`;
 
