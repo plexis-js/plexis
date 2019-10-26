@@ -1,6 +1,7 @@
 {
-  "name": "@plexis/is-uppercase",
-  "version": "0.0.15",
+  "name": "@plexis/escape-html",
+  "version": "0.0.18",
+  "description": "Takes the input text and converts HTML special characters to their entity equivalents.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
@@ -8,13 +9,15 @@
     "dist",
     "src"
   ],
+  "authors": [
+    "Nikhil Vats <nikvats5499@gmail.com>"
+  ],
   "license": "MIT",
   "keywords": [
     "utility",
     "string",
     "parse",
-    "format",
-    "validate"
+    "escapeHTML"
   ],
   "repository": {
     "type": "git",

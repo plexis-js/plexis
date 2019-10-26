@@ -15,3 +15,4 @@
 - [withoutDiacritics](/packages/withoutDiacritics)
 - [withoutIndent](/packages/withoutIndent)
 - [isString](/packages/isString)
+- [escapeHTML](/packages/escapeHTML)
