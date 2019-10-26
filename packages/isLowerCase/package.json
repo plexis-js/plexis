@@ -1,9 +1,13 @@
 {
   "name": "@plexis/is-lowercase",
-  "version": "0.0.12",
+  "version": "0.0.19",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "license": "MIT",
   "keywords": [
     "utility",

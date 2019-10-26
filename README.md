@@ -8,6 +8,11 @@
 
 This is the main monorepo codebase of Plexis.js a production-ready string manipulation libray that's community driven.
 
+[![npm version](https://badge.fury.io/js/plexis.svg)](https://www.npmjs.com/package/plexis)
+[![bundle size](https://badgen.net/bundlephobia/minzip/plexis)](https://bundlephobia.com/result?p=plexis)
+[![CircleCI](https://circleci.com/gh/plexis-js/plexis/tree/master.svg?style=shield)](https://circleci.com/gh/plexis-js/plexis/tree/master)
+[![Codecov](https://codecov.io/gh/plexis-js/plexis/branch/master/graph/badge.svg)](https://codecov.io/gh/plexis-js/plexis/branch/master)
+
 ## What is Plexis?
 
 ### Vision
@@ -25,10 +30,10 @@ Do you want to get your hands dirty? Learn more about [contributing](#contributi
 - [Installing](#installing)
 - [Using Plexis](#using)
 - [API](/docs/pages/api.md)
-- [Contributing](#contributing)
 - [Ground rules](#ground-rules)
-- [What you will learn by contributing]('#what-you-will-learn-by-contributing')
+- [What you will learn by contributing](#what-you-will-learn-by-contributing)
 - [Codebase and technologies](#codebase-and-technologies)
+- [Contributing](#contributing)
 - [Great, how do I get started?](#great-how-do-i-get-started)
   - [How to contribute](#how-to-contribute)
   - [Creating a new issue](#creating-a-new-issue)
@@ -57,10 +62,6 @@ Plexis utilities can be directly been used, Plexis is production-ready and made 
 import {toPred} from 'plexis';
 console.log(toPred('A')); // B
 ```
-
-## Contributing
-
-**We welcome any and all contributions from the community!** Plexis is made, driven and maintained by the community. We want to offer everyone a fair chance to make their first steps into open-source and learn through the journey.
 
 ## Ground rules
 
@@ -107,16 +108,20 @@ plexis/
 └── packages          # The heartbeat of plexis
 ```
 
+## Contributing
+
+**We welcome any and all contributions from the community!** Plexis is made, driven and maintained by the community. We want to offer everyone a fair chance to make their first steps into open-source and learn through the journey.
+
 ## Great, how do I get started?
 
-Plexis has a [Code of Conduct][]. Please review and help enforce this code of conduct to help us foster an open and inclusive project.
+Plexis has a [Code of Conduct](CODE-OF-CONDUCT.md). Please review and help enforce this code of conduct to help us foster an open and inclusive project.
 
 ### How to Contribute
 
 First things first, thanks so much! Feel free to contribute by opening and commenting on issues, helping answer questions, updating or improving our documentation, or opening a pull request. For quick bug fixes or PRs that address an open issue, feel free to open a PR. You can suggest API changes or dig through your codebase and make us a gift with that precious function of yours.
 
 Even the a tiny piece of code, knowledge or even a few minutes you can spare for Plexis are really important for us.
-[code of conduct]: ./CODE-OF-CONDUCT.md
+[Code of Conduct](CODE-OF-CONDUCT.md)
 
 ### Creating a new issue
 
@@ -153,7 +158,7 @@ For example, a utility function that converts a string to camelCase can be named
 ### Creating a new package
 
 If you want to create a new package we are on a great path 🎉.
-You need to take a few additional steps. Let's assume that you need to create a new package for the `cameCase` utility.
+You need to take a few additional steps. Let's assume that you need to create a new package for the `camelCase` utility.
 
 First thing first we need to create a new `@plexis` packages using `lerna create @plexis/came-case`. \_Note: NPM does not allows uppercase characters for packages`.
 
@@ -179,6 +184,8 @@ Finally, you should create a JSDoc comment block for your package, providing a p
 
 Last but not least you shall update the main `plexis` package with exports all the submodules. Since the main `plexis` module uses snapshots for testing, you need to run `yarn test -u` in order to update the snapshot testing.
 
+:bulb: Tip: If your pull request resolves an open issue, don't forget to use [GitHub keywords](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords) in the description of your commit message, for example **closes #1**, in order to automatically close the equivalent issue upon merge.
+
 ### Pull requests
 
 In a nutshell, to submit a pull request, follow these steps:
@@ -194,6 +201,8 @@ In a nutshell, to submit a pull request, follow these steps:
 9. Push your branch to origin.
 10. Open a pull request in this repository with a clear title and description and link to any relevant issues
 11. Wait for a maintainer to review your pull request.
+
+:bulb: Tip: `yarn test` failing for `packages/plexis/test/index.js`? Try running `yarn bootstrap` before running `yarn test` again.
 
 ### Common issues and pitfalls
 
