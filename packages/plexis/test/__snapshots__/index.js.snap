@@ -25,5 +25,6 @@ Array [
   "toChicagoManualStyle",
   "toChicagoStyle",
   "toChicagoTitle",
+  "toSnakeCase",
 ]
 `;
