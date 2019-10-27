@@ -5,6 +5,7 @@
 - [distance](/packages/distance)
 - [escapeHTML](/packages/escapeHTML)
 - [isAlpha](/packages/isAlpha)
+- [isAlphaNumeric](/packages/isAlphaNumeric)
 - [isLowerCase](/packages/isLowerCase)
 - [isNumeric](/packages/isNumeric)
 - [isString](/packages/isString)

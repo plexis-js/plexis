@@ -46,3 +46,8 @@ export {
   default as removeIndent,
   default as withoutIndent
 } from '@plexis/without-indent';
+export {
+  default as isAlphaNumeric,
+  default as isAlphanumeric,
+  default as isAlphaDigit
+} from '@plexis/is-alphanumeric';
