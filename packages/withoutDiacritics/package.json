@@ -1,6 +1,6 @@
 {
   "name": "@plexis/without-diacritics",
-  "version": "0.0.18",
+  "version": "0.0.21",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",

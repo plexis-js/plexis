@@ -4,7 +4,7 @@ it('Works with single characters', () => {
   expect(toPascalCase('h')).toBe('H');
 });
 
-it("Works will full words", () => {
+it('Works will full words', () => {
   expect(toPascalCase('hello')).toBe('Hello');
 });
 
@@ -16,18 +16,20 @@ it('Works with multiple words', () => {
   expect(toPascalCase('Hello there')).toBe('HelloThere');
 });
 
-it("Removes symbols", () => {
+it('Removes symbols', () => {
   expect(toPascalCase('@@@hello@@@')).toBe('Hello');
 });
 
-it("Works with long strings", () => {
-  expect(toPascalCase('This is a long string compared to the other tests')).toBe('ThisIsALongStringComparedToTheOtherTests')
-})
+it('Works with long strings', () => {
+  expect(toPascalCase('This is a long string compared to the other tests')).toBe(
+    'ThisIsALongStringComparedToTheOtherTests'
+  );
+});
 
-it("Converts camelCase properly", () => {
+it('Converts camelCase properly', () => {
   expect(toPascalCase('camelCase')).toBe('CamelCase');
-})
+});
 
-it("Converts kebab-case properly", () => {
+it('Converts kebab-case properly', () => {
   expect(toPascalCase('kebab-case')).toBe('KebabCase');
-})
+});

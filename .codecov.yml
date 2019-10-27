@@ -1,0 +1,9 @@
+codecov:
+  require_ci_to_pass: yes
+comment:
+  layout: 'header, reach,diff,flags,tree'
+  behavior: default
+  require_changes: false # if true: only post the comment if coverage changes
+  branches: null
+  flags: null
+  paths: null

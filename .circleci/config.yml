@@ -1,3 +1,8 @@
+version: 2.1
+
+orbs:
+  codecov: codecov/codecov@1.0.5
+
 defaults: &defaults
   working_directory: ~/repo
   docker:
@@ -8,7 +13,6 @@ jobs:
     <<: *defaults
     steps:
       - checkout
-
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "package.json" }}
@@ -20,8 +24,11 @@ jobs:
           command: yarn bootstrap
 
       - run:
-          name: Run tests
-          command: yarn test
+          name: Run tests and collect coverage report
+          command: yarn cover
+
+      - codecov/upload:
+          file: coverage/lcov.info
 
       - save_cache:
           paths:

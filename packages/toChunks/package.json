@@ -1,0 +1,25 @@
+{
+  "name": "@plexis/to-chunks",
+  "version": "0.0.21",
+  "description": "Splits the input text into an array of chunks.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "./src/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "author": "korczynsk1",
+  "license": "MIT",
+  "keywords": [
+    "chunks",
+    "string"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plexis-js/plexis.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
