@@ -51,3 +51,4 @@ export {
   default as isAlphanumeric,
   default as isAlphaDigit
 } from '@plexis/is-alphanumeric';
+export {default as toSwap, default as swap} from '@plexis/to-swap';
