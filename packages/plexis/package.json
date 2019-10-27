@@ -36,7 +36,8 @@
     "@plexis/to-title": "^0.0.21",
     "@plexis/when": "^0.0.21",
     "@plexis/without-diacritics": "^0.0.21",
-    "@plexis/without-indent": "^0.0.21"
+    "@plexis/without-indent": "^0.0.21",
+    "@plexis/without-html": "^0.0.21"
   },
   "keywords": [
     "utility",
