@@ -14,7 +14,7 @@ it('Swap with spaces', () => {
 });
 it('Swap Random Characters', () => {
   expect(toSwap('1;3')).toBe(';13');
-  expect(toSwap('.,][')).toBe('.,[]');
+  expect(toSwap('.,][')).toBe(',.[]');
 });
 it('Empty string case', () => {
   expect(toSwap('')).toBe('');
