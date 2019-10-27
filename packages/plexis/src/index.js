@@ -4,6 +4,7 @@ export {
   default as distance,
   default as levenshtein
 } from '@plexis/distance';
+export {default as endsWith} from '@plexis/ends-with';
 export {default as escapeHTML} from '@plexis/escape-html';
 export {default as isAlpha} from '@plexis/is-alpha';
 export {default as isLower, default as isLowerCase} from '@plexis/is-lowercase';

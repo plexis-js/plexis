@@ -15,6 +15,7 @@
   "dependencies": {
     "@plexis/compose": "^0.0.21",
     "@plexis/distance": "^0.0.21",
+    "@plexis/ends-with": "^0.0.21",
     "@plexis/escape-html": "^0.0.21",
     "@plexis/is-alpha": "^0.0.21",
     "@plexis/is-lowercase": "^0.0.21",
