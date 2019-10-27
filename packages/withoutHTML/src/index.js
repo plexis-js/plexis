@@ -2,18 +2,9 @@
  * @description Cleanups a string from HTML tags.
  * @param {String} text
  * @example
- * withoutDiacritics('<b>Test</b>') // returns 'Test'
+ * withoutHTML('<b>Test</b>') // returns 'Test'
  */
-
-function removeHTML(ogstr)
-{
-   if ((ogstr===null) || (ogstr===''))
-       return false;
-  else
-   ogstr = ogstr.toString();
-  return ogstr.replace(/<[^>]*>/g, '');
-}
  
-const withoutHTML = text => removeHTML(text);
+const withoutHTML = text => {return null!==text&&""!==text&&(text=text.toString()).replace(/<[^>]*>/g,"")};
 
 export default withoutHTML;
