@@ -1,6 +1,6 @@
 {
   "name": "@plexis/escape-html",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "Takes the input text and converts HTML special characters to their entity equivalents.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",

@@ -1,6 +1,6 @@
 {
   "name": "@plexis/to-chicago",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
