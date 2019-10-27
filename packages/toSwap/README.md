@@ -1,11 +1,23 @@
-# `@plexis/to-swap`
+## `@plexis/toSwap`
 
-> TODO: description
+Swaps every character with the next one in a given string.
 
-## Usage
+`npm i @plexis/to-swap`
 
+**Usage**
+
+```javascript
+import toSwap from '@plexis/to-swap';
+
+toSwap('ab'); // returns 'ba'
+toSwap('abc'); // returns 'bac'
+toSwap('abcd'); // returns 'badc'
+toSwap('a b'); // returns ' ab'
 ```
-const toswap = require('@plexis/toswap');
 
-// TODO: DEMONSTRATE API
+**Aliases**
+
+```javascript
+import {toSwap} from 'plexis';
+import {swap} from 'plexis';
 ```
