@@ -42,6 +42,8 @@ Array [
   "titleize",
   "toTitle",
   "_when",
+  "humanize",
+  "toHuman",
   "cleanDiacritics",
   "removeDiacritics",
   "withoutDiacritics",

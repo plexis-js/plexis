@@ -35,6 +35,7 @@ export {default as snakeCase, default as toSnakeCase} from '@plexis/to-snake-cas
 export {default as toSucc, default as toSuccessor} from '@plexis/to-succ';
 export {default as titleize, default as toTitle} from '@plexis/to-title';
 export {default as _when} from '@plexis/when';
+export {default as humanize, default as toHuman} from '@plexis/to-human';
 export {
   default as cleanDiacritics,
   default as removeDiacritics,

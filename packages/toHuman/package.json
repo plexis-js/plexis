@@ -1,0 +1,31 @@
+{
+  "name": "@plexis/to-human",
+  "version": "0.0.20",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "./src/index.js",
+  "description": "Converts a string into a human readable text",
+  "keywords": [
+    "utility",
+    "string",
+    "parse",
+    "format",
+    "validate"
+  ],
+  "author": "Angel Gonzalez <angelbroz@gmail.com>",
+  "homepage": "https://github.com/plexis-js/plexis#readme",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plexis-js/plexis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/plexis-js/plexis/issues"
+  }
+}
