@@ -12,6 +12,7 @@
 - [toLower](/packages/toLower)
 - [toPred](/packages/toPred)
 - [toSucc](/packages/toSucc)
+- [toSwapCase](/packages/toSwapCase)
 - [toTitle](/packages/toTitle)
 - [withoutDiacritics](/packages/withoutDiacritics)
 - [withoutIndent](/packages/withoutIndent)
