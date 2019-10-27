@@ -9,5 +9,14 @@ describe('@plexis/to-human', () => {
     );
     expect(toHuman(' foo-bar-baz qux       quux')).toBe('Foo bar baz qux quux');
     expect(toHuman('fooBar qux-core - _ ')).toBe('Foo bar qux core');
+    expect(toHuman('foo_')).toBe('Foo');
+    expect(toHuman('foo-')).toBe('Foo');
+    expect(toHuman('_foo')).toBe('Foo');
+    expect(toHuman('Foo bar')).toBe('Foo bar');
+    expect(toHuman('Foo')).toBe('Foo');
+    expect(toHuman(' foo ')).toBe('Foo');
+    expect(toHuman(' Foo ')).toBe('Foo');
+    expect(toHuman('-Foo ')).toBe('Foo');
+    expect(toHuman('Foo Bar foo')).toBe('Foo bar foo');
   });
 });

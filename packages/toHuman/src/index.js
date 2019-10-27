@@ -10,8 +10,9 @@ const toHuman = text =>
   text
     .trim()
     .replace(/_|-/g, ' ')
+    .trim()
     .replace(/([A-Z])/g, word => ' ' + word.toLowerCase())
-    .replace(/\b[A-Z][a-z]+\b/g, word => word.toLowerCase())
+    .trim()
     .replace(/^[a-z]/g, first => first.toUpperCase())
     .replace(/\s\s+/g, ' ')
     .trim();
