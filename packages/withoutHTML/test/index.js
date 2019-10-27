@@ -24,6 +24,6 @@ it('removes tags from a HTML button', () => {
   expect(withoutHTML('<button>Testing</button>')).toBe('Testing');
 });
 
-it('removes tags from a HTML input (type button)", () => {
+it('removes tags from a HTML input (type button)', () => {
   expect(withoutHTML('<input type="button">Testing</input>')).toBe('Testing');
 });
