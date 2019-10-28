@@ -8,6 +8,7 @@ export {default as escapeHTML} from '@plexis/escape-html';
 export {default as isAlpha} from '@plexis/is-alpha';
 export {default as isLower, default as isLowerCase} from '@plexis/is-lowercase';
 export {default as isNum, default as isNumeric} from '@plexis/is-numeric';
+export {default as includes, default as has} from '@plexis/includes';
 export {default as isString} from '@plexis/is-string';
 export {default as isUpper, default as isUpperCase} from '@plexis/is-uppercase';
 export {default as startsWith} from '@plexis/starts-with';

@@ -7,6 +7,7 @@
 - [isLowerCase](/packages/isLowerCase)
 - [isUpperCase](/packages/isUpperCase)
 - [isNumeric](/packages/isNumeric)
+- [includes](/packages/includes)
 - [startsWith](/packages/startsWith)
 - [toChicago](/packages/toChicago)
 - [toLower](/packages/toLower)
