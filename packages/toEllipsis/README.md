@@ -10,14 +10,13 @@ Truncates the input text to the desired length.
 ```javascript
 import toChunks from '@plexis/to-ellipsis';
 
-
 toEllipsis('foo');
 // => 'foo'
 toEllipsis('foo', 1);
 // =>  'f..'
 toEllipsis('foo', 3);
 // => 'foo'
-toEllipsis('Last night I dreamt I went to Manderley again.', 5); 
+toEllipsis('Last night I dreamt I went to Manderley again.', 5);
 // => 'Last ...'
 ```
 
