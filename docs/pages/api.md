@@ -25,4 +25,5 @@
 - [toTitle](/packages/toTitle)
 - [when](/packages/when)
 - [withoutDiacritics](/packages/withoutDiacritics)
+- [withoutHTML](/packages/withoutHTML)
 - [withoutIndent](/packages/withoutIndent)

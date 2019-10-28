@@ -1,9 +1,9 @@
 # `@plexis/withoutHTML`
 
-Converts the input text to camelCase.
+Removes HTML tags from the input text.
 
 **Installation**
-`npm i @plexis/to-snake-case`
+`npm i @plexis/without-html`
 
 **Usage**
 
