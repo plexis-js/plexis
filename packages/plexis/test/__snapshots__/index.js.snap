@@ -44,11 +44,16 @@ Array [
   "titleize",
   "toTitle",
   "_when",
+  "humanize",
+  "toHuman",
   "cleanDiacritics",
   "removeDiacritics",
   "withoutDiacritics",
   "dedent",
   "removeIndent",
   "withoutIndent",
+  "isAlphaNumeric",
+  "isAlphanumeric",
+  "isAlphaDigit",
 ]
 `;

@@ -1,19 +1,16 @@
 {
-  "name": "@plexis/to-chunks",
+  "name": "@plexis/is-alphanumeric",
   "version": "0.0.21",
-  "description": "Splits the input text into an array of chunks.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
-  "files": [
-    "dist",
-    "src"
-  ],
-  "author": "korczynsk1",
   "license": "MIT",
   "keywords": [
-    "chunks",
-    "string"
+    "utility",
+    "string",
+    "parse",
+    "format",
+    "validate"
   ],
   "repository": {
     "type": "git",
