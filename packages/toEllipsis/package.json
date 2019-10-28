@@ -1,0 +1,30 @@
+{
+  "name": "@plexis/to-ellipsis",
+  "version": "0.0.21",
+  "description": "Truncates the input text to the desired length.",
+  "keywords": [
+    "utility",
+    "string",
+    "truncate"
+  ],
+  "author": "protob <protobx@gmail.com>",
+  "homepage": "https://github.com/plexis-js/plexis.git",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "./src/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plexis-js/plexis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/plexis-js/plexis/issues"
+  }
+}

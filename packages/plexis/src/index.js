@@ -35,6 +35,7 @@ export {default as snakeCase, default as toSnakeCase} from '@plexis/to-snake-cas
 export {default as toSucc, default as toSuccessor} from '@plexis/to-succ';
 export {default as titleize, default as toTitle} from '@plexis/to-title';
 export {default as _when} from '@plexis/when';
+export {default as humanize, default as toHuman} from '@plexis/to-human';
 export {
   default as cleanDiacritics,
   default as removeDiacritics,
@@ -45,3 +46,10 @@ export {
   default as removeIndent,
   default as withoutIndent
 } from '@plexis/without-indent';
+export {
+  default as isAlphaNumeric,
+  default as isAlphanumeric,
+  default as isAlphaDigit
+} from '@plexis/is-alphanumeric';
+
+export {default as toEllipsis, default as truncate, default as fit} from '@plexis/to-ellipsis';
