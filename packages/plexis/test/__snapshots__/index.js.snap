@@ -4,8 +4,8 @@ exports[`allows using all the available utilities 1`] = `
 Array [
   "__esModule",
   "compose",
-  "count",
   "_do",
+  "count",
   "calcLevenshtein",
   "distance",
   "levenshtein",
