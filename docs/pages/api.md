@@ -26,3 +26,4 @@
 - [when](/packages/when)
 - [withoutDiacritics](/packages/withoutDiacritics)
 - [withoutIndent](/packages/withoutIndent)
+- [toSwap](/packages/toSwap)
