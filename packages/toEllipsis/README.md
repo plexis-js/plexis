@@ -7,7 +7,7 @@ Truncates the input text to the desired length.
 
 **Usage**
 
-````javascript
+```javascript
 import toChunks from '@plexis/to-ellipsis';
 
 
@@ -19,7 +19,7 @@ toEllipsis('foo', 3);
 // => 'foo'
 toEllipsis('Last night I dreamt I went to Manderley again.', 5); 
 // => 'Last ...'
-
+```
 
 ## Aliases
 
