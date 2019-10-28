@@ -3,6 +3,9 @@
 exports[`allows using all the available utilities 1`] = `
 Array [
   "__esModule",
+  "compare",
+  "compareLikeHuman",
+  "naturalCompare",
   "compose",
   "_do",
   "calcLevenshtein",

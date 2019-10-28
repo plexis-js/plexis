@@ -13,6 +13,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "@plexis/compare": "^0.0.21",
     "@plexis/compose": "^0.0.21",
     "@plexis/distance": "^0.0.21",
     "@plexis/escape-html": "^0.0.21",
