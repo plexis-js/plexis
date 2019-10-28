@@ -3,6 +3,7 @@
 - [cache](/packages/cache)
 - [compose](/packages/compose)
 - [distance](/packages/distance)
+- [endsWith](/packages/endsWith)
 - [escapeHTML](/packages/escapeHTML)
 - [isAlpha](/packages/isAlpha)
 - [isLowerCase](/packages/isLowerCase)
