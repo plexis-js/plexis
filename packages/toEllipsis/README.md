@@ -21,9 +21,9 @@ toEllipsis('Last night I dreamt I went to Manderley again.', 5); ;
 // => 'Last ...'
 
 
-**Aliases**
+## Aliases
 
 ```javascript
 import toEllipsis from '@plexis/to-ellipsis';
 import {toEllipsis, truncate, fit} from 'plexis';
-````
+```
