@@ -13,6 +13,7 @@
 - [repeat](/packages/repeat)
 - [startsWith](/packages/startsWith)
 - [toCamelCase](/packages/toCamelCase)
+- [toChars](/packages/toChars)
 - [toChicago](/packages/toChicago)
 - [toChunks](/packages/toChunks)
 - [toHuman](/packages/toHuman)

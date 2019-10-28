@@ -51,3 +51,4 @@ export {
   default as isAlphanumeric,
   default as isAlphaDigit
 } from '@plexis/is-alphanumeric';
+export {default as toChars, default as chars} from '@plexis/to-chars';
