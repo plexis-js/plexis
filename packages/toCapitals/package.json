@@ -7,10 +7,7 @@
   "description": "Converts the first character of the input text to upper case. If the second parameter is true, the method converts the rest of the subject to lower case",
   "keywords": [
     "utility",
-    "string",
-    "parse",
-    "format",
-    "validate"
+    "string"
   ],
   "author": "Angel Gonzalez <angelbroz@gmail.com>",
   "homepage": "https://github.com/plexis-js/plexis#readme",
