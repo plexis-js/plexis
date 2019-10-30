@@ -1,6 +1,7 @@
 ## API
 
 - [cache](/packages/cache)
+- [compare](/packages/compare)
 - [compose](/packages/compose)
 - [distance](/packages/distance)
 - [endsWith](/packages/endsWith)
