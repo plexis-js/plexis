@@ -3,18 +3,24 @@
 exports[`allows using all the available utilities 1`] = `
 Array [
   "__esModule",
+  "compare",
+  "compareLikeHuman",
+  "naturalCompare",
   "compose",
   "_do",
   "count",
   "calcLevenshtein",
   "distance",
   "levenshtein",
+  "endsWith",
   "escapeHTML",
   "isAlpha",
   "isLower",
   "isLowerCase",
   "isNum",
   "isNumeric",
+  "includes",
+  "has",
   "isString",
   "isUpper",
   "isUpperCase",
@@ -54,5 +60,7 @@ Array [
   "isAlphaNumeric",
   "isAlphanumeric",
   "isAlphaDigit",
+  "withoutHTML",
+  "removeHTML",
 ]
 `;

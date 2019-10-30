@@ -1,3 +1,8 @@
+export {
+  default as compare,
+  default as compareLikeHuman,
+  default as naturalCompare
+} from '@plexis/compare';
 export {default as compose, default as _do} from '@plexis/compose';
 export {default as count} from '@plexis/count';
 export {
@@ -5,10 +10,12 @@ export {
   default as distance,
   default as levenshtein
 } from '@plexis/distance';
+export {default as endsWith} from '@plexis/ends-with';
 export {default as escapeHTML} from '@plexis/escape-html';
 export {default as isAlpha} from '@plexis/is-alpha';
 export {default as isLower, default as isLowerCase} from '@plexis/is-lowercase';
 export {default as isNum, default as isNumeric} from '@plexis/is-numeric';
+export {default as includes, default as has} from '@plexis/includes';
 export {default as isString} from '@plexis/is-string';
 export {default as isUpper, default as isUpperCase} from '@plexis/is-uppercase';
 export {default as startsWith} from '@plexis/starts-with';
@@ -52,3 +59,5 @@ export {
   default as isAlphanumeric,
   default as isAlphaDigit
 } from '@plexis/is-alphanumeric';
+export {default as withoutHTML, default as removeHTML} from '@plexis/without-html';
+
