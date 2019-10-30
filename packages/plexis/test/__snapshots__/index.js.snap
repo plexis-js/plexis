@@ -8,6 +8,7 @@ Array [
   "calcLevenshtein",
   "distance",
   "levenshtein",
+  "endsWith",
   "escapeHTML",
   "isAlpha",
   "isLower",
