@@ -54,5 +54,7 @@ Array [
   "isAlphaNumeric",
   "isAlphanumeric",
   "isAlphaDigit",
+  "withoutHTML",
+  "removeHTML",
 ]
 `;

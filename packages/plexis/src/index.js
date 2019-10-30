@@ -52,3 +52,4 @@ export {
   default as isAlphanumeric,
   default as isAlphaDigit
 } from '@plexis/is-alphanumeric';
+export {default as withoutHTML, default as removeHTML} from '@plexis/without-html';
