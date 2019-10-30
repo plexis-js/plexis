@@ -10,6 +10,7 @@
 - [isAlphaNumeric](/packages/isAlphaNumeric)
 - [isLowerCase](/packages/isLowerCase)
 - [isNumeric](/packages/isNumeric)
+- [includes](/packages/includes)
 - [isString](/packages/isString)
 - [isUpperCase](/packages/isUpperCase)
 - [repeat](/packages/repeat)

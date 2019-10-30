@@ -18,6 +18,8 @@ Array [
   "isLowerCase",
   "isNum",
   "isNumeric",
+  "includes",
+  "has",
   "isString",
   "isUpper",
   "isUpperCase",

@@ -22,6 +22,7 @@
     "@plexis/is-alphanumeric": "^0.0.21",
     "@plexis/is-lowercase": "^0.0.21",
     "@plexis/is-numeric": "^0.0.21",
+    "@plexis/includes": "^0.0.20",
     "@plexis/is-string": "^0.0.21",
     "@plexis/is-uppercase": "^0.0.21",
     "@plexis/starts-with": "^0.0.21",
