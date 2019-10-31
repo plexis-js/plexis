@@ -14,6 +14,6 @@ describe('@plexis/count', () => {
   });
 
   it('no empty string given for first and  validator for no spaces as second parameter', () => {
-    expect(count('Foo bar   ', char => char != ' ')).toBe(6);
+    expect(count('Foo bar   ', char => char !== ' ')).toBe(6);
   });
 });

@@ -7,20 +7,18 @@
  * count('Foo') // returns 3
  * count('Foo bar') // returns 7
  * count('Foo bar  ', char => char != ' ') //returns 6
- * 
+ *
  */
-const count = (text, validator) => {
+const count = (text, validator = () => true) => {
   let strLen = text ? text.length : 0;
 
-  if (typeof validator == 'function')
-  {
-    strLen = 0;
-    text.split('').map(letter => {
-      strLen += validator(letter) ? 1 : 0;
-    });
-  }
+  strLen = 0;
+
+  text.split('').map(letter => {
+    strLen += validator(letter) ? 1 : 0;
+  });
 
   return strLen;
-}
+};
 
 export default count;
