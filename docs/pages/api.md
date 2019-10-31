@@ -30,3 +30,4 @@
 - [withoutDiacritics](/packages/withoutDiacritics)
 - [withoutHTML](/packages/withoutHTML)
 - [withoutIndent](/packages/withoutIndent)
+- [tail](/packages/tail)
