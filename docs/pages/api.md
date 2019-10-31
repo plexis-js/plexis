@@ -6,6 +6,7 @@
 - [distance](/packages/distance)
 - [endsWith](/packages/endsWith)
 - [escapeHTML](/packages/escapeHTML)
+- [head](/packages/head)
 - [isAlpha](/packages/isAlpha)
 - [isAlphaNumeric](/packages/isAlphaNumeric)
 - [isLowerCase](/packages/isLowerCase)
