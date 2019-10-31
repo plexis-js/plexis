@@ -1,0 +1,29 @@
+{
+  "name": "@plexis/without-html",
+  "version": "0.0.21",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "./src/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "authors": [
+    "Gopi Krishna <gopiwayz@gmail.com> (https://bgopikrishna.me)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "utility",
+    "string",
+    "parse",
+    "format",
+    "validate"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plexis-js/plexis.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

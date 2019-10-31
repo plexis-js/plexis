@@ -1,8 +1,10 @@
 ## API
 
 - [cache](/packages/cache)
+- [compare](/packages/compare)
 - [compose](/packages/compose)
 - [distance](/packages/distance)
+- [endsWith](/packages/endsWith)
 - [escapeHTML](/packages/escapeHTML)
 - [isAlpha](/packages/isAlpha)
 - [isAlphaNumeric](/packages/isAlphaNumeric)
@@ -26,4 +28,5 @@
 - [toTitle](/packages/toTitle)
 - [when](/packages/when)
 - [withoutDiacritics](/packages/withoutDiacritics)
+- [withoutHTML](/packages/withoutHTML)
 - [withoutIndent](/packages/withoutIndent)
