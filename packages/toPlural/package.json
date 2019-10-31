@@ -1,0 +1,31 @@
+{
+  "name": "@plexis/to-plural",
+  "version": "0.0.21",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "./src/index.js",
+  "description": "Converts a word to its plural form",
+  "keywords": [
+    "utility",
+    "string",
+    "parse",
+    "format",
+    "validate"
+  ],
+  "author": "shilangyu <xmarcinmarcin@gmail.com>",
+  "homepage": "https://github.com/plexis-js/plexis#readme",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plexis-js/plexis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/plexis-js/plexis/issues"
+  }
+}

@@ -7,7 +7,7 @@ it('removes an indent from the front', () => {
 });
 
 it("doesn't remove newline characters", () => {
-    expect(withoutIndent('\nHello')).toBe('\nHello');
+  expect(withoutIndent('\nHello')).toBe('\nHello');
 });
 
 it("doesn't remove anything when there's no indent", () => {
