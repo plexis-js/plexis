@@ -5,14 +5,14 @@
  * @params {number} [position] - check at given position
  * @return {boolean} Whether string2 is part of string1
  * @example
- * isNumeric('1000') // returns true
- * isNumeric('Foo') // returns false
+ * includes('Foo', 'oo') // returns true
+ * includes('Foo', 'Foo', 2) // returns false
  */
 
-const includes = (inputString = null, searchString = null, position = 0) =>
+const includes = (inputString, searchString, position = 0) =>
   !!(
-    inputString !== null &&
-    searchString !== null &&
+    typeof inputString === 'string' &&
+    typeof searchString === 'string' &&
     RegExp(searchString, 'g').test(inputString.substring(position))
   );
 
