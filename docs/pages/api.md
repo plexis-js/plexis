@@ -17,6 +17,7 @@
 - [repeat](/packages/repeat)
 - [startsWith](/packages/startsWith)
 - [toCamelCase](/packages/toCamelCase)
+- [toCapitals](/packages/toCapitals)
 - [toChicago](/packages/toChicago)
 - [toChunks](/packages/toChunks)
 - [toHuman](/packages/toHuman)

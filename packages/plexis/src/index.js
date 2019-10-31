@@ -25,6 +25,11 @@ export {
   default as toCamelCase
 } from '@plexis/to-camel-case';
 export {
+  default as toCapitals,
+  default as toFirstCapital,
+  default as capitalize
+} from '@plexis/to-capitals';
+export {
   default as toChicagoManualStyle,
   default as toChicagoStyle,
   default as toChicagoTitle,
