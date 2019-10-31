@@ -9,7 +9,7 @@
  * count('Foo bar  ', char => char != ' ') //returns 6
  *
  */
-const count = (text, validator = () => true) => {
+const count = (text = '', validator = () => true) => {
   let strLen = text ? text.length : 0;
 
   strLen = 0;
