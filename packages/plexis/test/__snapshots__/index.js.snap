@@ -64,5 +64,9 @@ Array [
   "isAlphaDigit",
   "withoutHTML",
   "removeHTML",
+  "tail",
+  "rest",
+  "last",
+  "pop",
 ]
 `;
