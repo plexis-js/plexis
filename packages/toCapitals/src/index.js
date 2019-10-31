@@ -7,8 +7,7 @@
  * toPred('fOO Bar') // returns 'FOO Bar'
  * toPred('fOO Bar', true) // returns 'Foo bar'
  */
-const toCapitals = (text, isLowercase = false) => {
-  if (!text) return '';
+const toCapitals = (text = '', isLowercase = false) => {
   let firstCharacter = text.charAt(0).toUpperCase();
   let restOfString = isLowercase ? text.slice(1).toLowerCase() : text.slice(1);
 
