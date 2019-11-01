@@ -7,6 +7,7 @@
 - [endsWith](/packages/endsWith)
 - [escapeHTML](/packages/escapeHTML)
 - [head](/packages/head)
+- [insert](/packages/insert)
 - [isAlpha](/packages/isAlpha)
 - [isAlphaNumeric](/packages/isAlphaNumeric)
 - [isLowerCase](/packages/isLowerCase)

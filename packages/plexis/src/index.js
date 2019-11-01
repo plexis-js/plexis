@@ -12,6 +12,7 @@ export {
 export {default as endsWith} from '@plexis/ends-with';
 export {default as escapeHTML} from '@plexis/escape-html';
 export {default as head, default as first, default as popFirst} from '@plexis/head';
+export {default as insert} from '@plexis/insert';
 export {default as isAlpha} from '@plexis/is-alpha';
 export {default as isLower, default as isLowerCase} from '@plexis/is-lowercase';
 export {default as isNum, default as isNumeric} from '@plexis/is-numeric';

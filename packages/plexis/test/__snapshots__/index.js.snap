@@ -16,6 +16,7 @@ Array [
   "head",
   "first",
   "popFirst",
+  "insert",
   "isAlpha",
   "isLower",
   "isLowerCase",
