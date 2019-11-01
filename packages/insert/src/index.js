@@ -1,6 +1,9 @@
 /**
- * @description This is a sample description
+ * @description Inserts into the input text a string at specified position
  * @param {String} text
+ * @param {String} textToInsert
+ * @param {Number} insertPosition
+ *
  * @example
  * insert('foo ba'); // returns  'foo ba'
  * insert('foo ba', "r"); // returns  'foo bar'
@@ -10,11 +13,11 @@
  * insert('oo bar', "", 0); // returns  'foo bar'
  */
 
-const insert = (text = '', textToInsert = '', position = text.length) => {
-  if (position < 0 || position > text.length || textToInsert === '') {
+const insert = (text = '', textToInsert = '', insertPosition = text.length) => {
+  if (insertPosition < 0 || insertPosition > text.length || textToInsert === '') {
     return text + textToInsert;
   }
-  return text.slice(0, position) + textToInsert + text.slice(position);
+  return text.slice(0, insertPosition) + textToInsert + text.slice(insertPosition);
 };
 
 export default insert;

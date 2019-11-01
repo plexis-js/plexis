@@ -1,6 +1,6 @@
 ## `@plexis/insert`
 
-A proper description
+Inserts into the input text a string at specified position.
 
 `npm i @plexis/insert`
 
