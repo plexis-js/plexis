@@ -11,6 +11,7 @@ export {
 } from '@plexis/distance';
 export {default as endsWith} from '@plexis/ends-with';
 export {default as escapeHTML} from '@plexis/escape-html';
+export {default as head, default as first, default as popFirst} from '@plexis/head';
 export {default as isAlpha} from '@plexis/is-alpha';
 export {default as isLower, default as isLowerCase} from '@plexis/is-lowercase';
 export {default as isNum, default as isNumeric} from '@plexis/is-numeric';
@@ -23,6 +24,11 @@ export {
   default as camelize,
   default as toCamelCase
 } from '@plexis/to-camel-case';
+export {
+  default as toCapitals,
+  default as toFirstCapital,
+  default as capitalize
+} from '@plexis/to-capitals';
 export {
   default as toChicagoManualStyle,
   default as toChicagoStyle,
@@ -60,3 +66,4 @@ export {
 } from '@plexis/is-alphanumeric';
 export {default as withoutHTML, default as removeHTML} from '@plexis/without-html';
 export {default as isEmpty} from '@plexis/is-empty';
+export {default as tail, default as rest, default as last, default as pop} from '@plexis/tail';

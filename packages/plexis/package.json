@@ -18,6 +18,7 @@
     "@plexis/distance": "^0.0.21",
     "@plexis/ends-with": "^0.0.21",
     "@plexis/escape-html": "^0.0.21",
+    "@plexis/head": "^0.0.21",
     "@plexis/is-alpha": "^0.0.21",
     "@plexis/is-alphanumeric": "^0.0.21",
     "@plexis/is-lowercase": "^0.0.21",
@@ -27,6 +28,7 @@
     "@plexis/is-uppercase": "^0.0.21",
     "@plexis/starts-with": "^0.0.21",
     "@plexis/to-camel-case": "^0.0.21",
+    "@plexis/to-capitals": "^0.0.21",
     "@plexis/to-chicago": "^0.0.21",
     "@plexis/to-chunks": "^0.0.21",
     "@plexis/to-human": "^0.0.21",
@@ -41,7 +43,8 @@
     "@plexis/without-diacritics": "^0.0.21",
     "@plexis/without-html": "^0.0.21",
     "@plexis/without-indent": "^0.0.21",
-    "@plexis/is-empty": "^0.0.21"
+    "@plexis/is-empty": "^0.0.21",
+    "@plexis/tail": "^0.0.21"
   },
   "keywords": [
     "utility",
