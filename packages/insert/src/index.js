@@ -10,7 +10,7 @@
  * insert('foo ba', "r", 6); // returns  'foo bar'
  * insert('foo ba', "r", 100); // returns  'foo bar'
  * insert('foo ba', "r", -100); // returns  'foo bar'
- * insert('oo bar', "", 0); // returns  'foo bar'
+ * insert('oo bar', "f", 0); // returns  'foo bar'
  */
 
 const insert = (text = '', textToInsert = '', insertPosition = text.length) => {
