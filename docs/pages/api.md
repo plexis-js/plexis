@@ -9,6 +9,7 @@
 - [head](/packages/head)
 - [isAlpha](/packages/isAlpha)
 - [isAlphaNumeric](/packages/isAlphaNumeric)
+- [isEmpty](/packages/isEmpty)
 - [isLowerCase](/packages/isLowerCase)
 - [isNumeric](/packages/isNumeric)
 - [includes](/packages/includes)
