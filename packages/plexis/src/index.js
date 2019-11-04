@@ -4,6 +4,7 @@ export {
   default as naturalCompare
 } from '@plexis/compare';
 export {default as compose, default as _do} from '@plexis/compose';
+export {default as count} from '@plexis/count';
 export {
   default as calcLevenshtein,
   default as distance,
@@ -12,6 +13,7 @@ export {
 export {default as endsWith} from '@plexis/ends-with';
 export {default as escapeHTML} from '@plexis/escape-html';
 export {default as head, default as first, default as popFirst} from '@plexis/head';
+export {default as insert} from '@plexis/insert';
 export {default as isAlpha} from '@plexis/is-alpha';
 export {default as isLower, default as isLowerCase} from '@plexis/is-lowercase';
 export {default as isNum, default as isNumeric} from '@plexis/is-numeric';
@@ -35,6 +37,7 @@ export {
   default as toChicagoTitle,
   default as toTurabian
 } from '@plexis/to-chicago';
+export {default as toSwapCase, default as swapCase} from '@plexis/to-swap-case';
 export {default as toChunks} from '@plexis/to-chunks';
 export {
   default as decapitalize,
@@ -67,3 +70,4 @@ export {
 export {default as withoutHTML, default as removeHTML} from '@plexis/without-html';
 export {default as isEmpty} from '@plexis/is-empty';
 export {default as tail, default as rest, default as last, default as pop} from '@plexis/tail';
+export {default as toSwap, default as swap} from '@plexis/to-swap';

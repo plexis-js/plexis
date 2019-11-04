@@ -1,6 +1,6 @@
 {
   "name": "@plexis/ends-with",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
@@ -24,6 +24,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@plexis/is-string": "^0.0.21"
+    "@plexis/is-string": "^0.0.22"
   }
 }

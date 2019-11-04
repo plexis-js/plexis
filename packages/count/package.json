@@ -1,0 +1,31 @@
+{
+  "name": "@plexis/count",
+  "version": "0.0.22",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "./src/index.js",
+  "description": "Return the number of characters in the input text.",
+  "keywords": [
+    "utility",
+    "string",
+    "parse",
+    "format",
+    "validate"
+  ],
+  "author": "Angel Gonzalez <angelbroz@gmail.com>",
+  "homepage": "https://github.com/plexis-js/plexis#readme",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plexis-js/plexis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/plexis-js/plexis/issues"
+  }
+}

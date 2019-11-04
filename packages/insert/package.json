@@ -1,0 +1,29 @@
+{
+  "name": "@plexis/insert",
+  "version": "0.0.22",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "./src/index.js",
+  "description": "Inserts into the input text a string at specified position.",
+  "keywords": [
+    "utility",
+    "string",
+    "format"
+  ],
+  "author": "Angel Gonzalez <angelbroz@gmail.com>",
+  "homepage": "https://github.com/plexis-js/plexis#readme",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plexis-js/plexis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/plexis-js/plexis/issues"
+  }
+}

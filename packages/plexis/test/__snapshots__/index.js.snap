@@ -8,6 +8,7 @@ Array [
   "naturalCompare",
   "compose",
   "_do",
+  "count",
   "calcLevenshtein",
   "distance",
   "levenshtein",
@@ -16,6 +17,7 @@ Array [
   "head",
   "first",
   "popFirst",
+  "insert",
   "isAlpha",
   "isLower",
   "isLowerCase",
@@ -37,6 +39,8 @@ Array [
   "toChicagoStyle",
   "toChicagoTitle",
   "toTurabian",
+  "toSwapCase",
+  "swapCase",
   "toChunks",
   "decapitalize",
   "toFirstLower",
@@ -72,5 +76,7 @@ Array [
   "rest",
   "last",
   "pop",
+  "toSwap",
+  "swap",
 ]
 `;
