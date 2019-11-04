@@ -19,7 +19,7 @@ This is the main monorepo codebase of Plexis.js a production-ready string manipu
 
 For the past few years managing, contributing or even starting an open-source project could be hard, especially for newcomers. Plexis was born and driven by the JavaScript community. Our initial goal is to provide a production-ready set of utilities and help people understand how an open-source project is maintained. Plexis is driven by our contributors and it should always stay that way.
 
-You may have noticed that there are some functions missing and there are [lots of open issues](https://github.com/plexis-js/plexis/issues) in our repo. That's because we want to allow people to create through the process of learning. Plexis grows with the community and we want to provide a friendly environment for people to get creative, have fun and expand their expertise into JavaScript.
+You may have noticed that some functions are missing and there are [lots of open issues](https://github.com/plexis-js/plexis/issues) in our repo. That's because we want to allow people to create through the process of learning. Plexis grows with the community and we want to provide a friendly environment for people to get creative, have fun and expand their expertise into JavaScript.
 
 **Plexis aims to be the best and most flexible library for string operations in the JavaScript and also encourage everyone to learn.**
 
@@ -56,7 +56,7 @@ npm install @plexis/without-diacritics @plexis/toPred
 
 ## Using
 
-Plexis utilities can be directly been used, Plexis is production-ready and made for Node.js as well as the web. You can directly include and use any module from Plexis inside your project.
+Plexis utilities can be directly used, Plexis is production-ready and made for Node.js as well as the web. You can directly include and use any module from Plexis inside your project.
 
 ```javascript
 import {toPred} from 'plexis';
@@ -79,7 +79,7 @@ The basic idea behind Plexis is to help people understand and learn how to use t
 
 - Working with pull requests, forks, GIT and the whole workflow of an open-source project.
 - Learning how unit testing works.
-- Taking a look how a CI/CD workflow works along with the NPM registry.
+- Taking a look at how a CI/CD workflow works along with the NPM registry.
 
 ## Codebase and technologies
 
@@ -110,7 +110,7 @@ plexis/
 
 ## Contributing
 
-**We welcome any and all contributions from the community!** Plexis is made, driven and maintained by the community. We want to offer everyone a fair chance to make their first steps into open-source and learn through the journey.
+**We welcome any contributions from the community!** Plexis is made, driven and maintained by the community. We want to offer everyone a fair chance to make their first steps into open-source and learn through the journey.
 
 ## Great, how do I get started?
 
@@ -120,12 +120,12 @@ Plexis has a [Code of Conduct](CODE-OF-CONDUCT.md). Please review and help enfor
 
 First things first, thanks so much! Feel free to contribute by opening and commenting on issues, helping answer questions, updating or improving our documentation, or opening a pull request. For quick bug fixes or PRs that address an open issue, feel free to open a PR. You can suggest API changes or dig through your codebase and make us a gift with that precious function of yours.
 
-Even the a tiny piece of code, knowledge or even a few minutes you can spare for Plexis are really important for us.
+Even the tiniest piece of code, knowledge or even a few minutes you can spare for Plexis are really important for us.
 [Code of Conduct](CODE-OF-CONDUCT.md)
 
 ### Creating a new issue
 
-We have setup proper GitHub issue templates with guidelines about asking for features, fixing a bug or even questions. We are waiting for your ideas to start flowing.
+We have set up proper GitHub issue templates with guidelines about asking for features, fixing a bug or even questions. We are waiting for your ideas to start flowing.
 
 ### Setup your environment
 
@@ -140,7 +140,7 @@ Now you can locally clone the project as: `git clone git@github.com:plexis-js/pl
 
 ### Pick an open issue
 
-Plexis is all about teaching people. You can found lots of open issues with different types of difficulty. Usually there are labels that they can help you find the best open issue for you. Find the best issue for you and let's get started.
+Plexis is all about teaching people. You can found lots of open issues with different types of difficulty. Usually, there are labels that they can help you find the best open issue for you. Find the best issue for you and let's get started.
 
 Usually, you will find yourself creating a new package or as it is said "a feature request", thus we are trying to provide as much information, test cases or examples as possible.
 
@@ -162,7 +162,7 @@ You need to take a few additional steps. Let's assume that you need to create a 
 
 First thing first we need to create a new `@plexis` packages using `lerna create @plexis/came-case`. \_Note: NPM does not allows uppercase characters for packages`.
 
-You can use `lerna create` for creating a new package, more infos can be found [here](https://github.com/lerna/lerna/tree/master/commands/create). You should include all the available information for the new package like `name`, `version`, Alternatively, we are providing [a template for new packages](/..package-template). Keep in mind that the name of package folders should be in camelCase and package.json details should be aligned with the other packages and `lerna.json`. For packages with dependencies to other `@plexis` packages, you can use `yarn bootstrap` which under the hood uses `lerna bootstrap`, learn more about bootstaping [here](https://github.com/lerna/lerna/tree/master/commands/bootstrap).
+You can use `lerna create` for creating a new package, more info can be found [here](https://github.com/lerna/lerna/tree/master/commands/create). You should include all the available information for the new package like `name`, `version`, Alternatively, we are providing [a template for new packages](/..package-template). Keep in mind that the name of package folders should be in camelCase and package.json details should be aligned with the other packages and `lerna.json`. For packages with dependencies to other `@plexis` packages, you can use `yarn bootstrap` which under the hood uses `lerna bootstrap`, learn more about bootstrapping [here](https://github.com/lerna/lerna/tree/master/commands/bootstrap).
 
 Afterward, create an `src` and a `test` folder, place your files and write the appropriate test cases for unit testing.
 
@@ -182,9 +182,9 @@ packages/
 
 Finally, you should create a JSDoc comment block for your package, providing a proper description, some code examples and documenting the parameters passed through the function. You shall also create or update the `README.md` or any related documentation files.
 
-Last but not least you shall update the main `plexis` package with exports all the submodules. Since the main `plexis` module uses snapshots for testing, you need to run `yarn test -u` in order to update the snapshot testing.
+Last but not least you shall update the main `plexis` package with exports all the submodules. Since the main `plexis` module uses snapshots for testing, you need to run `yarn test -u` to update the snapshot testing.
 
-:bulb: Tip: If your pull request resolves an open issue, don't forget to use [GitHub keywords](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords) in the description of your commit message, for example **closes #1**, in order to automatically close the equivalent issue upon merge.
+:bulb: Tip: If your pull request resolves an open issue, don't forget to use [GitHub keywords](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords) in the description of your commit message, e.g., **closes #1**, to automatically close the equivalent issue upon merge.
 
 ### Pull requests
 
@@ -194,10 +194,10 @@ In a nutshell, to submit a pull request, follow these steps:
 2. Create a branch for your changes.
 3. Install dependencies with `yarn`.
 4. Ensure tests are passing by running `yarn test`. Update any snapshots using `yarn test -u`.
-5. Update the docs or `README.md` file if required. .
+5. Update the docs or `README.md` file if required.
 6. If you're fixing a bug, it's recommended to write a failing test before writing any code.
 7. Make changes locally and commit them.
-8. Try to make sure tests still pass and that there's great coverage and clear test cases.
+8. Try to make sure tests still pass and that there's a great coverage and clear test cases.
 9. Push your branch to origin.
 10. Open a pull request in this repository with a clear title and description and link to any relevant issues
 11. Wait for a maintainer to review your pull request.
@@ -208,13 +208,13 @@ In a nutshell, to submit a pull request, follow these steps:
 
 - Lerna is a powerful tool, try to get through the documentation, make yourself familiar with the commands and follow the appropriate steps as described above.
 - Yarn can be a lifesaver for dependency management, try to avoid mixing `npm` and `yarn`.
-- Commitlint can be frustating. Please use it all consciously as it provides a consistent `git` history.
+- Commitlint can be frustrating. Please use it all consciously as it provides a consistent `git` history.
 
 - If you don't know how to do something, just ask for help. We got your back!
 
 ### Learning resources
 
-Here are some learning resources, free tutorials and books:
+Here are some learning resources, free tutorials, and books:
 
 #### ES6
 
