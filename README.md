@@ -6,7 +6,7 @@
 
 </div>
 
-This is the main monorepo codebase of Plexis.js a production-ready string manipulation libray that's community driven.
+This is the main monorepo codebase of Plexis.js a production-ready string manipulation library that's community driven.
 
 [![npm version](https://badge.fury.io/js/plexis.svg)](https://www.npmjs.com/package/plexis)
 [![bundle size](https://badgen.net/bundlephobia/minzip/plexis)](https://bundlephobia.com/result?p=plexis)
