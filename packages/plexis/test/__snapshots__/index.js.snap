@@ -8,6 +8,7 @@ Array [
   "naturalCompare",
   "compose",
   "_do",
+  "count",
   "calcLevenshtein",
   "distance",
   "levenshtein",

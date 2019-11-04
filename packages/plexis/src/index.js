@@ -4,6 +4,7 @@ export {
   default as naturalCompare
 } from '@plexis/compare';
 export {default as compose, default as _do} from '@plexis/compose';
+export {default as count} from '@plexis/count';
 export {
   default as calcLevenshtein,
   default as distance,
