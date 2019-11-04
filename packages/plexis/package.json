@@ -20,6 +20,7 @@
     "@plexis/ends-with": "^0.0.21",
     "@plexis/escape-html": "^0.0.21",
     "@plexis/head": "^0.0.21",
+    "@plexis/insert": "^0.0.21",
     "@plexis/is-alpha": "^0.0.21",
     "@plexis/is-alphanumeric": "^0.0.21",
     "@plexis/is-lowercase": "^0.0.21",
