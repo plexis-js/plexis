@@ -27,6 +27,7 @@
 - [toPred](/packages/toPred)
 - [toSnakeCase](/packages/toSnakeCase)
 - [toSucc](/packages/toSucc)
+- [toSwapCase](/packages/toSwapCase)
 - [toTitle](/packages/toTitle)
 - [when](/packages/when)
 - [withoutDiacritics](/packages/withoutDiacritics)

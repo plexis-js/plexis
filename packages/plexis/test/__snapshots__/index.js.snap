@@ -37,6 +37,8 @@ Array [
   "toChicagoStyle",
   "toChicagoTitle",
   "toTurabian",
+  "toSwapCase",
+  "swapCase",
   "toChunks",
   "decapitalize",
   "toFirstLower",

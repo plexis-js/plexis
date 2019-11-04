@@ -31,6 +31,7 @@
     "@plexis/to-capitals": "^0.0.21",
     "@plexis/to-chicago": "^0.0.21",
     "@plexis/to-chunks": "^0.0.21",
+    "@plexis/to-swap-case": "^0.0.20",
     "@plexis/to-human": "^0.0.21",
     "@plexis/to-lower": "^0.0.21",
     "@plexis/to-pascal-case": "^0.0.21",

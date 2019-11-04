@@ -35,6 +35,7 @@ export {
   default as toChicagoTitle,
   default as toTurabian
 } from '@plexis/to-chicago';
+export {default as toSwapCase, default as swapCase} from '@plexis/to-swap-case';
 export {default as toChunks} from '@plexis/to-chunks';
 export {
   default as decapitalize,
