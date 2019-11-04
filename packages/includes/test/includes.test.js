@@ -30,7 +30,7 @@ describe('@plexis/isNumeric', () => {
   it('Second parameter as substring of first parameter, but substring has different casing', () => {
     expect(includes('Foo', 'Oo')).toBe(false);
   });
-  
+
   it('Second parameter as non string value', () => {
     expect(includes('Foo', false)).toBe(false);
   });

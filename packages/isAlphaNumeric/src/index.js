@@ -9,6 +9,6 @@
  * isAlphaNumeric('bar!') // returns false
  * isAlphaNumeric('') // returns false
  */
-const isAlphaNumeric = text => typeof text === 'string' ? /^[A-Za-z0-9]+$/.test(text) : false;
+const isAlphaNumeric = text => (typeof text === 'string' ? /^[A-Za-z0-9]+$/.test(text) : false);
 
 export default isAlphaNumeric;

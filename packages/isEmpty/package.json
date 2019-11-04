@@ -1,0 +1,28 @@
+{
+  "name": "@plexis/is-empty",
+  "version": "0.0.22",
+  "description": "Checks whether the input text is empty.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "./src/index.js",
+  "author": "eElec <adrishaditya@gmail.com>",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "utility",
+    "string",
+    "parse",
+    "format",
+    "validate"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plexis-js/plexis.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

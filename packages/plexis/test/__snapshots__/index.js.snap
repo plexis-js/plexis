@@ -71,6 +71,7 @@ Array [
   "isAlphaDigit",
   "withoutHTML",
   "removeHTML",
+  "isEmpty",
   "tail",
   "rest",
   "last",
