@@ -66,3 +66,4 @@ export {
 } from '@plexis/is-alphanumeric';
 export {default as withoutHTML, default as removeHTML} from '@plexis/without-html';
 export {default as tail, default as rest, default as last, default as pop} from '@plexis/tail';
+export {default as toSwap, default as swap} from '@plexis/to-swap';

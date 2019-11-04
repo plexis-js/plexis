@@ -71,5 +71,7 @@ Array [
   "rest",
   "last",
   "pop",
+  "toSwap",
+  "swap",
 ]
 `;

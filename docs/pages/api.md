@@ -33,3 +33,4 @@
 - [withoutHTML](/packages/withoutHTML)
 - [withoutIndent](/packages/withoutIndent)
 - [tail](/packages/tail)
+- [toSwap](/packages/toSwap)
