@@ -1,6 +1,6 @@
 {
   "name": "@plexis/to-chunks",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "Splits the input text into an array of chunks.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",

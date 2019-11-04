@@ -1,6 +1,6 @@
 {
   "name": "@plexis/head",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",

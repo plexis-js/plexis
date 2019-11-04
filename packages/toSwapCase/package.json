@@ -1,6 +1,6 @@
 {
   "name": "@plexis/to-swap-case",
-  "version": "0.0.20",
+  "version": "0.0.22",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "./src/index.js",
