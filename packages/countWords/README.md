@@ -12,7 +12,7 @@ import countWords from '@plexis/count-words';
 
 countWords(); // returns 0
 countWords(''); // returns  0
-countWords('     '); // returns 2
+countWords(' '); // returns 0
 countWords('Hello   World    !!'); // returns 2
 ```
 

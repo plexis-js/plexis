@@ -4,10 +4,9 @@
  * @example
  * countWords(); // => 0
  * countWords(''); // => 0
- * countWords('     ') // => 0
+ * countWords(' ') // => 0
  * countWords('Hello   World') // => 2
  * countWords('Hello   World    !!') // => 2
- 
  */
 
 const countWords = (string = '') => {
