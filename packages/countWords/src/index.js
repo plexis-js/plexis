@@ -1,5 +1,5 @@
 /**
- * @description Truncates the input text to the desired length.
+ * @description Returns the number of words contained in the input text.
  * @param {String} string
  * @example
  * countWords(); // => 0
