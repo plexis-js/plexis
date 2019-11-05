@@ -11,7 +11,7 @@ Returns the number of words contained in the input text.
 import countWords from '@plexis/count-words';
 
 countWords(); // returns 0
-countWords(''); // returns  0
+countWords(''); // returns 0
 countWords(' '); // returns 0
 countWords('Hello   World    !!'); // returns 2
 ```
