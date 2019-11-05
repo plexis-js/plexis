@@ -1,0 +1,30 @@
+{
+  "name": "@plexis/count-words",
+  "version": "0.0.22",
+  "description": "Returns the number of words contained in the input text.",
+  "keywords": [
+    "utility",
+    "string",
+    "count"
+  ],
+  "author": "protob <protobx@gmail.com>",
+  "homepage": "https://github.com/plexis-js/plexis.git",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "./src/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plexis-js/plexis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/plexis-js/plexis/issues"
+  }
+}
