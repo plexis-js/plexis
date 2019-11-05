@@ -10,14 +10,10 @@ Returns the number of words contained in the input text.
 ```javascript
 import countWords from '@plexis/count-words';
 
-countWords();
-// => 0
-countWords('');
-// =>  0
-countWords('     ');
-// => 2
-countWords('Hello   World    !!');
-// => 2
+countWords(); // returns 0
+countWords(''); // returns  0
+countWords('     '); // returns 2
+countWords('Hello   World    !!'); // returns 2
 ```
 
 ## Aliases
