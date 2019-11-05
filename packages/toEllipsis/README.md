@@ -8,7 +8,7 @@ Truncates the input text to the desired length.
 **Usage**
 
 ```javascript
-import toChunks from '@plexis/to-ellipsis';
+import toEllipsis from '@plexis/to-ellipsis';
 
 toEllipsis('foo');
 // => 'foo'
