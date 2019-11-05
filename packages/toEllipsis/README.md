@@ -10,14 +10,10 @@ Truncates the input text to the desired length.
 ```javascript
 import toEllipsis from '@plexis/to-ellipsis';
 
-toEllipsis('foo');
-// => 'foo'
-toEllipsis('foo', 1);
-// =>  'f..'
-toEllipsis('foo', 3);
-// => 'foo'
-toEllipsis('Last night I dreamt I went to Manderley again.', 5);
-// => 'Last ...'
+toEllipsis('foo'); // retruns 'foo'
+toEllipsis('foo', 1); // retruns  'f..'
+toEllipsis('foo', 3); // retruns 'foo'
+toEllipsis('Last night I dreamt I went to Manderley again.', 5); // retruns 'Last ...'
 ```
 
 ## Aliases
