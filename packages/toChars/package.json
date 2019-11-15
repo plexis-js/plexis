@@ -7,17 +7,17 @@
     "files": ["dist", "src"],
     "license": "MIT",
     "keywords": [
-        "utility",
-        "string",
-        "parse",
-        "format",
-        "validate"
+      "utility",
+      "string",
+      "parse",
+      "format",
+      "validate"
     ],
     "repository": {
-        "type": "git",
-        "url": "git+https://github.com/plexis-js/plexis.git"
+      "type": "git",
+      "url": "git+https://github.com/plexis-js/plexis.git"
     },
     "publishConfig": {
-        "access": "public"
+      "access": "public"
     }
 }
