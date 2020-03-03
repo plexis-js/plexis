@@ -71,3 +71,4 @@ export {default as withoutHTML, default as removeHTML} from '@plexis/without-htm
 export {default as isEmpty} from '@plexis/is-empty';
 export {default as tail, default as rest, default as last, default as pop} from '@plexis/tail';
 export {default as toSwap, default as swap} from '@plexis/to-swap';
+export {default as toEllipsis, default as truncate, default as fit} from '@plexis/to-ellipsis';

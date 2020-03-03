@@ -78,5 +78,8 @@ Array [
   "pop",
   "toSwap",
   "swap",
+  "toEllipsis",
+  "truncate",
+  "fit",
 ]
 `;
