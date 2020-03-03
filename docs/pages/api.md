@@ -37,4 +37,5 @@
 - [withoutHTML](/packages/withoutHTML)
 - [withoutIndent](/packages/withoutIndent)
 - [tail](/packages/tail)
+- [toEllipsis](/packages/toEllipsis)
 - [toSwap](/packages/toSwap)
