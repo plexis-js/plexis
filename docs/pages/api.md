@@ -3,6 +3,7 @@
 - [cache](/packages/cache)
 - [compare](/packages/compare)
 - [compose](/packages/compose)
+- [countWords](/packages/countWords)
 - [distance](/packages/distance)
 - [endsWith](/packages/endsWith)
 - [escapeHTML](/packages/escapeHTML)
