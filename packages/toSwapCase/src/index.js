@@ -3,7 +3,7 @@
 /**
  * Swaps lowercase to uppercase and vice versa for the input text.
  * @param {String} input
- * @returns {String} swaped text
+ * @returns {String} swapped text
  * @example
  * toSwapCase('Hello WORLD'); // => 'hELLO world'
  * toSwapCase('123 toys'); // => '123 TOYS'
