@@ -48,7 +48,9 @@
     "@plexis/without-diacritics": "^0.0.22",
     "@plexis/without-html": "^0.0.22",
     "@plexis/without-indent": "^0.0.22",
-    "@plexis/is-empty": "^0.0.22"
+    "@plexis/is-empty": "^0.0.22",
+    "@plexis/count-words": "^0.0.22",
+    "@plexis/to-ellipsis": "^0.0.22"
   },
   "keywords": [
     "utility",

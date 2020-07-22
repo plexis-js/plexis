@@ -78,5 +78,9 @@ Array [
   "pop",
   "toSwap",
   "swap",
+  "countWords",
+  "toEllipsis",
+  "truncate",
+  "fit",
 ]
 `;
