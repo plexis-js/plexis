@@ -17,6 +17,7 @@
 - [includes](/packages/includes)
 - [isString](/packages/isString)
 - [isUpperCase](/packages/isUpperCase)
+- [padRight](/packages/padRight)
 - [repeat](/packages/repeat)
 - [startsWith](/packages/startsWith)
 - [toCamelCase](/packages/toCamelCase)
