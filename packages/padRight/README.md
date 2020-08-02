@@ -8,6 +8,6 @@ The padding is applied in the end of the string.
 ```
 const padRight = require('@plexis/pad-right');
 
-padRight('Foo Bar', 10, '*'); // Foo Bar***
-padRight('Foo Bar', 10, '123'); // Foo Bar123
+padRight('Foo Bar', 10, '*'); // 'Foo Bar***'
+padRight('Foo Bar', 10, '123'); // 'Foo Bar123'
 ```
