@@ -1,0 +1,28 @@
+{
+  "name": "@plexis/padding-right",
+  "version": "0.0.22",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "./src/index.js",
+  "description": "Pads the right side of the string by a certain size and pattern.",
+  "keywords": [
+    "padding",
+    "right"
+  ],
+  "author": "Saee Saadat <saee_saadat@outlook.com>",
+  "homepage": "https://github.com/plexis-js/plexis#readme",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plexis-js/plexis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/plexis-js/plexis/issues"
+  }
+}
