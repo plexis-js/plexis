@@ -73,11 +73,3 @@ export {default as tail, default as rest, default as last, default as pop} from 
 export {default as toSwap, default as swap} from '@plexis/to-swap';
 export {default as countWords} from '@plexis/count-words';
 export {default as toEllipsis, default as truncate, default as fit} from '@plexis/to-ellipsis';
-export {
-  default as digitConversionE2P,
-  default as digitConversionE2A,
-  default as digitConversionP2A,
-  default as digitConversionP2E,
-  default as digitConversionA2P,
-  default as digitConversionA2E
-} from '@plexis/convert-digits';
